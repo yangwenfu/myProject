@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <bean id="seqResetServiceImpl" class="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService"
+                   ref="seqResetServiceImpl" group="pay-service-app"/>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.service.UserRealAuthService" ref="userRealAuthServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.service.PayRecvService" ref="payRecvServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.service.PayRecvQueryService" ref="payRecvQueryServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.service.toDto.PayRecvQueryToDTOService"
+                   ref="payRecvQueryToDTOServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.service.toDto.PayRecvToDTOService" ref="payRecvToDTOServiceImpl"/>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.channel.service.ChannelService" ref="channelServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.channel.service.ChannelCacheService" ref="channelCacheServiceImpl"/>
+
+</beans>

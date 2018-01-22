@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}"/>
+
+    <bean id="seqResetServiceImpl" class="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService" ref="seqResetServiceImpl"  group="cloudCode-service-app"/>
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.xinyunlian.jinfu.common.security.authc.SecurityService" ref="clodeCodeSecurityServiceImpl" group="cloudCode"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.order.service.CmccOrderService" ref="cmccOrderServiceImpl">
+        <dubbo:method name="queryBalance" timeout="10000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+        <dubbo:method name="saveOrder" timeout="10000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+        <dubbo:method name="confirmOrder" timeout="10000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+        <dubbo:method name="queryVouchers" timeout="10000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.order.service.CmccTradeService" ref="cmccTradeServiceImpl">
+        <dubbo:method name="startTrade" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+        <dubbo:method name="updateTradeStatus" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+        <dubbo:method name="findTradeList" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.clerk.service.ClerkAuthService" ref="clerkAuthServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.clerk.service.ClerkApplyService" ref="clerkApplyServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.clerk.service.ClerkService" ref="clerkServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.wechat.service.ApiWeChatService" ref="apiWeChatServiceImpl">
+        <dubbo:method name="sendPush" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YMProdService" ref="yMProdServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YMRouterAgentService" ref="yMRouterAgentServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YMUserInfoService" ref="yMUserInfoServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YMMemberService" ref="yMMemberServiceImpl">
+        <dubbo:method name="getMemberList" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+        <dubbo:method name="addMember" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.trade.service.YmTradeService" ref="ymTradeServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.trade.service.YmBizService" ref="ymBizServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.api.service.ApiWinManagerService" ref="apiWinManagerServiceImpl">
+        <dubbo:method name="getmemberNo" timeout="10000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.trade.service.YmTradeService" ref="ymTradeServiceImpl">
+        <dubbo:method name="saveTrade" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.alipay.service.ApiAliPayService" ref="apiAliPayServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.api.service.ApiNotifyService" ref="apiNotifyServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YmThirdConfigService" ref="ymThirdConfigServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.bscontract.service.YmMemberSignService" ref="ymMemberSignServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YmThirdUserService" ref="ymThirdUserServiceImpl">
+        <dubbo:method name="save" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.api.service.ApiThirdService" ref="apiThirdServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YmPayChannelService" ref="ymPayChannelServiceImpl">
+        <dubbo:method name="findByChannel" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为10秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.yunma.service.YmDepotService" ref="ymDepotServiceImpl" retries="0" timeout="5000"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.payCode.service.PayCodeService" ref="payCodeServiceImpl" retries="0" timeout="5000"/>
+
+</beans>

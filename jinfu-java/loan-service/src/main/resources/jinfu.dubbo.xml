@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <bean id="seqResetServiceImpl" class="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService" ref="seqResetServiceImpl"  group="loan-service-app"/>
+
+    <dubbo:consumer check="false" />
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.xinyunlian.jinfu.product.service.LoanProductService" ref="loanProductServiceImpl" >
+        <dubbo:method name="getProdDtl" timeout="5000"/>
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.loan.service.LoanApplQueryService" ref="loanApplQueryServiceImpl">
+        <dubbo:method name="listLoanAppl" timeout="5000" retries="0"/>
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.loan.service.LoanApplService" ref="loanApplServiceImpl" >
+        <dubbo:method name="apply" timeout="5000" retries="0"/>
+        <dubbo:method name="bTestStart" timeout="5000" retries="0"/>
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.loan.service.LoanService" ref="loanServiceImpl">
+        <dubbo:method name="pay" timeout="5000" retries="0" />
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.audit.service.LoanAuditService" ref="loanAuditServiceImpl" />
+
+    <dubbo:service interface="com.xinyunlian.jinfu.schedule.service.ScheduleService" ref="scheduleServiceImpl" timeout="50000"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.repay.service.RepayService" ref="repayServiceImpl" timeout="5000" retries="0" />
+    <dubbo:service interface="com.xinyunlian.jinfu.pay.service.PayRecvOrdService" ref="payRecvOrdServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.loan.service.LoanQueryService" ref="loanQueryServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.acct.service.AcctReserveService" ref="acctReserveServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.risk.service.RiskService" ref="riskServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.loan.service.LinkRepaySchdService" ref="linkRepaySchdServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.feedback.service.LoanFeedbackService" ref="loanFeedbackServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.promo.service.LoanPromoService" ref="loanPromoServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.calc.service.LoanCalcService" ref="loanCalcServiceImpl">
+        <dubbo:method name="any" timeout="4000" retries="0" />
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.overdue.service.LoanOverdueService" ref="loanOverdueServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.log.service.LoanAuditLogService" ref="loanAuditLogServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.loan.service.LoanApplUserService" ref="loanApplUserServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.loan.service.LoanApplExtService" ref="loanApplExtServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.coupon.service.LoanCouponService" ref="loanCouponServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.thirdparty.nbcb.service.NBCBOrderService" ref="nbcbOrderServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.balance.service.BalanceCashierService" ref="balanceCashierServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.balance.service.BalanceOutlineService" ref="balanceOutlineServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.balance.service.BalanceDetailService" ref="balanceDetailServiceImpl">
+        <dubbo:method name="detail" timeout="5000" retries="0"/>
+    </dubbo:service>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.cashier.service.LoanPayService" id="loanPayService" retries="0" timeout="50000"/>
+
+    <!--<dubbo:reference interface="com.ylfin.fundRouter.service.SourceFundService" id="sourceFundService"/>-->
+    <!--<dubbo:reference interface="com.ylfin.fundRouter.service.SourceFundSortService" id="sourceFundSortService"/>-->
+    <!--<dubbo:reference interface="com.ylfin.fundRouter.service.SourceFundConfigService" id="sourceFundConfigService"/>-->
+
+    <dubbo:service interface="com.xinyunlian.jinfu.router.service.FinanceSourceService" ref="financeSourceServiceImpl" retries="0" timeout="5000"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.ATZApiService" ref="atzApiServiceImpl" retries="0" timeout="50000"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.ExternalService" ref="externalServiceImpl" retries="0" timeout="50000" />
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.LoanApplOutBankCardService" ref="loanApplOutBankCardServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.LoanApplOutUserService" ref="loanApplOutUserServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.LoanApplOutService" ref="loanApplOutServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.LoanApplOutAuditService" ref="loanApplOutAuditServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.LoanOutRiskService" ref="loanOutRiskServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.external.service.LoanApplOutRefundsAdvanceService" ref="loanApplOutRefundsAdvanceServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.carbank.service.LoanCarbankOrderService" ref="loanCarbankOrderServiceImpl" retries="0" timeout="50000"/>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.carbank.service.LoanCarbankOrderService" ref="loanCarbankOrderServiceImpl" retries="0" timeout="50000"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.creditline.service.LoanUserCreditLineService" ref="loanUserCreditLineServiceImpl" />
+
+    <dubbo:service interface="com.xinyunlian.jinfu.depository.service.LoanDepositoryAcctService" ref="loanDepositoryAcctServiceImpl" />
+
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerServiceFeeService" ref="dealerServiceFeeServiceImpl" />
+
+</beans>

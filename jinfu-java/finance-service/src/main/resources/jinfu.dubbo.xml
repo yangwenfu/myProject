@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <bean id="seqResetServiceImpl" class="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService" ref="seqResetServiceImpl"  group="finance-service-app"/>
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.xinyunlian.jinfu.finaccbankcard.service.FinAccBankCardService" ref="finAccBankCardServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.finfunddetail.service.FinFundDetailService" ref="finFundDetailServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.finprofithistory.service.FinProfitHistoryService" ref="finProfitHistoryServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.fintxhistory.service.FinTxHistoryService" ref="finTxHistoryServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.finaccfundprofit.service.FinAccFundProfitService" ref="finAccFundProfitServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.finbank.service.FinBankService" ref="finBankServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.zrfundstx.service.ZrFundsHttpService" ref="zrFundsHttpServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.fintask.service.QuotationJobService" ref="quotationJobServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.fintask.service.ShareJobService" ref="shareJobServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.fintask.service.QuerySuperCashTradeJobService" ref="querySuperCashTradeJobServiceImpl"/>
+
+</beans>

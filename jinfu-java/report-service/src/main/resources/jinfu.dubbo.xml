@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <dubbo:service interface="com.xinyunlian.jinfu.report.loan.service.LoanReportService" ref="loanReportServiceImpl" timeout="30000" retries="0"></dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.report.allloan.service.AllLoanReportService" ref="allLoanReportServiceImpl" timeout="30000" retries="0"></dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.report.virtual.service.VirtualTboReportService" ref="virtualTboReportServiceImpl" timeout="30000" retries="0"></dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.report.dealer.service.DealerReportService" ref="dealerReportServiceImpl" timeout="30000" retries="0"></dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.report.dealer.service.DealerStatsOrderService" ref="dealerStatsOrderServiceImpl" timeout="30000" retries="0"></dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.report.dealer.service.DealerStatsStoreService" ref="dealerStatsStoreServiceImpl" timeout="30000" retries="0"></dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.report.dealer.service.DealerStatsMonthService" ref="dealerStatsMonthServiceImpl" timeout="30000" retries="0"></dubbo:service>
+</beans>

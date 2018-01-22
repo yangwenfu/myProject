@@ -1,0 +1,602 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <meta name=Generator content="Microsoft Word 14 (filtered)">
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face
+        {font-family:宋体;
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        @font-face
+        {font-family:"Cambria Math";
+            panose-1:2 4 5 3 5 4 6 3 2 4;}
+        @font-face
+        {font-family:Calibri;
+            panose-1:2 15 5 2 2 2 4 3 2 4;}
+        @font-face
+        {font-family:"\@宋体";
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            font-size:10.5pt;
+            font-family:"Calibri","sans-serif";}
+        p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+        {mso-style-link:"批注文字 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            font-size:10.5pt;
+            font-family:"Calibri","sans-serif";}
+        p.MsoHeader, li.MsoHeader, div.MsoHeader
+        {mso-style-link:"页眉 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:center;
+            layout-grid-mode:char;
+            border:none;
+            padding:0cm;
+            font-size:9.0pt;
+            font-family:"Calibri","sans-serif";}
+        p.MsoFooter, li.MsoFooter, div.MsoFooter
+        {mso-style-link:"页脚 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            layout-grid-mode:char;
+            font-size:9.0pt;
+            font-family:"Calibri","sans-serif";}
+        p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+        {mso-style-link:"批注主题 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            font-size:10.5pt;
+            font-family:"Calibri","sans-serif";
+            font-weight:bold;}
+        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+        {mso-style-link:"批注框文本 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            font-size:9.0pt;
+            font-family:"Calibri","sans-serif";}
+        span.Char
+        {mso-style-name:"页眉 Char";
+            mso-style-link:页眉;}
+        span.Char0
+        {mso-style-name:"页脚 Char";
+            mso-style-link:页脚;}
+        span.Char1
+        {mso-style-name:"批注文字 Char";
+            mso-style-link:批注文字;}
+        span.Char2
+        {mso-style-name:"批注主题 Char";
+            mso-style-link:批注主题;
+            font-weight:bold;}
+        span.Char3
+        {mso-style-name:"批注框文本 Char";
+            mso-style-link:批注框文本;}
+        p.1, li.1, div.1
+        {mso-style-name:列出段落1;
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:21.0pt;
+            font-size:10.5pt;
+            font-family:"Calibri","sans-serif";}
+        p.2, li.2, div.2
+        {mso-style-name:列出段落2;
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:21.0pt;
+            font-size:10.5pt;
+            font-family:"Calibri","sans-serif";}
+        .MsoChpDefault
+        {font-size:10.0pt;
+            font-family:"Calibri","sans-serif";}
+        /* Page Definitions */
+        @page WordSection1
+        {size:595.3pt 841.9pt;
+            margin:72.0pt 90.0pt 72.0pt 90.0pt;
+            layout-grid:15.6pt;}
+        div.WordSection1
+        {page:WordSection1;}
+        /* List Definitions */
+        ol
+        {margin-bottom:0cm;}
+        ul
+        {margin-bottom:0cm;}
+        -->
+    </style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+    <p class=MsoNormal align=center style='text-align:center;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款协议</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><b><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>信息服务商</span></b><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>：雁阵科技（北京）有限公司</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>注：借款人、出借人委托雁阵科技（北京）有限公司（以下简称“雁阵科技”）对借款业务的风险进行评估和管理，以及对借款相关金额进行计算。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>一、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>借款协议</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1.</span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>《借款协议》（<span lang=EN-US>&quot;</span>本协议<span
+            lang=EN-US>&quot;</span>）由两部分组成：第一部分为<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>，即借款人每笔借款的本金，利息，借款期限，还款日期等相关要素，以 “云联掌柜”平台上借款人账户的显示为准，第二部分为<span
+            lang=EN-US>&quot;</span>借款通用条款<span lang=EN-US>&quot;</span>，即本协议内容。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人为符合中华人民共和国法律（仅为本协议之目的，不包括香港特别行政区、澳门特别行政区和台湾省的法律法规，以下简称<span
+            lang=EN-US>&quot;</span>中国法律<span lang=EN-US>&quot;</span>）规定的具有完全民事权利能力和民事行为能力，独立行使和承担本协议项下权利义务的自然人或符合中国法律规定的企业法人或其他机构。</span></p>
+
+    <p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+                                                         style='font-size:14.0pt;font-family:宋体;color:#333333'>3. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>出借人为符合中国法律规定的具有完全民事权利能力和民事行为能力，独立承担本协议项下权利义务的自然人或符合中国法律规定的企业法人或其他机构。</span></p>
+
+    <p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+                                                         style='font-size:14.0pt;font-family:宋体;color:#333333'>4. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议项下借款人、出借人单独称<span
+            lang=EN-US>&quot;</span>一方<span lang=EN-US>&quot;</span>，合称<span lang=EN-US>&quot;</span>各方<span
+            lang=EN-US>&quot;</span>。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>5.</span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人通过互联网点击确认或以其他方式选择接受本协议，即表示：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+text-autospace:none'><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+color:#333333'>1</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>）借款人同意接受本协议的全部约定内容，确认承担由此产生的一切责任；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+text-autospace:none'><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+color:#333333'>2</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>）借款人不可撤销地授权雁阵科技从各个渠道获取其本人及其名下企业或商户的相关信息，包括但不限于身份信息，个人通讯信息、社交信息，经营流水信息，银行卡信息、信用信息等等，该等信息仅用</span><span
+            style='font-size:14.0pt;font-family:宋体'>于<span style='color:#333333'>“云联掌柜”的风险评估、贷后管理及逾期催收使用；借款人同意与业务相关的第三方对其及其名下企业或商户的相关交易信息进行收集并在与业务相关的第三方之间共享；同意并不可撤销地授权合法经营的第三方公司向雁阵科技提供借款人及其名下企业或商户的相关信息；同意雁阵科技将查询获取的信息进行保存、整理、加工。但法律、法规、监管政策禁止查询的除外。</span></span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+text-autospace:none'><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+color:#333333'>3</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>）借款人同意雁阵科技及其授权机构对借款人银行卡完成本协议资金划转。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt;
+text-autospace:none'><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>二、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>借款</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款金额是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的借款本金金额。借款币种为人民币。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款期限是指自借款放款日起至最终到期日（全部借款到期日）止的期间。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>3. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款用途是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的借款用途。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>4. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款利率是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的借款利率。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>5. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款放款日是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的借款放款日，为出借人之借款成功发放之日。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>6. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>起息日是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的起息日，为出借人的借款放款日当日。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>7. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>还款方式是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的还款方式。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>8. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>还款日是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的还款日。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>9. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>每期还款金额是指<span lang=EN-US>&quot;</span>借款明细<span
+            lang=EN-US>&quot;</span>中列明的每期还款金额，为借款人每期还款日应还的本金和利息之和。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>10. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>工作日是指正常营业日（不包括中国的法定公休日和节假日）。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>11. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议项下借款的利息按实际天数计息，一年按<span
+            lang=EN-US>360</span>天计。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left'><span lang=EN-US
+                                                                style='font-size:14.0pt;font-family:宋体;color:#333333'>12. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人在</span><span
+            lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman","serif";
+color:#333333'>“</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>云联掌柜</span><span
+            lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman","serif";
+color:#333333'>”</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>平台以在线点击确认的方式接受本协议后，即不可撤销地授权雁阵科技的委托支付机构将金额等同于<span
+            lang=EN-US>&quot;</span>借款明细<span lang=EN-US>&quot;</span>中列明的借款本金金额的资金由出借人账户划转至借款人账户，划转成功即视为借款发放成功。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>三、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>还款</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人应承担如下还款义务：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>1</span>）借款人应按时足额向出借人支付本金和利息；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>2</span>）如发生逾期还款，借款人需按本协议约定向出借人支付逾期手续费；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>3</span>）如发生提前还款，借款人需按本协议约定向出借人支付流动性补偿款；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>4</span>）借款人应归还的上述款项统称为<span
+            lang=EN-US>&quot;</span>应付款项<span lang=EN-US>&quot;</span>。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议项下借款的还款金额计算公式如下：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>采用一次性到期还本付息方式的：应还金额<span
+            lang=EN-US>=</span>贷款本金<span lang=EN-US>*</span>年化利率<span lang=EN-US>/360*</span>贷款期限<span
+            lang=EN-US>+</span>贷款本金</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>采用等额本息分期还款方式的：每期应还金额<span
+            lang=EN-US>=</span>〔贷款本金×每期利率×<span lang=EN-US>(1</span>＋每期利率<span lang=EN-US>)</span>＾还款期数〕÷〔<span
+            lang=EN-US>(1</span>＋每期利率<span lang=EN-US>)</span>＾还款期数<span lang=EN-US>-1</span>〕</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>3. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人应在还款日支付当期应付款项。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>4. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人不可撤销地授权雁阵科技委托的支付机构于还款日从借款人指定账户中将借款人的资金划转至出借人指定账户；若借款人指定账户的资金余额不足时，雁阵科技委托的支付机构有权对借款人指定账户的余额进行全额扣款或视为还款不成功。为避免还款不成功，借款人应至少在还款日前一个工作日，将资金存入借款人指定账户中；因借款人未足额存入资金导致还款不成功的，后果由借款人自行承担。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>四、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>逾期还款</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>还款日<span lang=EN-US>17</span>点前，借款人未足额支付应付款项的，则视为逾期。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人逾期的，按照当期应付款项自逾期之日起按每日<span
+            lang=EN-US>0.1%</span>的逾期手续费率按日计收逾期手续费直至清偿完毕之日止（不含清偿完毕之日）。逾期手续费不计复利。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>3. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人在发生逾期后又进行还款的，如借款人的还款金额不足以足额清偿全部到期应付款项的，应按如下顺序支付应付款项：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>1</span>）单期还款：当借款人仅有一期应付款项未按时全额支付时，其还款资金支付顺序依次为：<span
+            lang=EN-US>A.</span>截止到该还款日的逾期手续费；<span lang=EN-US> B.</span>利息；<span
+            lang=EN-US> C. </span>本金。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>2</span>）多期还款：当借款人存在多期应付款项未按时全额支付时，还款资金应根据应付款项拖欠的时间，从拖欠时间最长的应付款项开始支付，依次（期）偿还；同一期应付款项的支付顺序均为：<span
+            lang=EN-US>A. </span>截止到该还款日的逾期手续费；<span lang=EN-US> B. </span>利息；<span
+            lang=EN-US> C. </span>本金。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>4. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>逾期款项中的逾期手续费不计利息。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>5. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人不可撤销地授权雁阵科技委托的支付机构在借款人未能按时足额支付应付款项的情况下，在借款人全部到期应付款项的范围内，随时划扣借款人账户的资金用于归还借款人到期应付款项，该等划扣无需借款人另行同意。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;color:black'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>五、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>提前还款</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人可于起息日起至最终到期日前，申请提前偿还全部应付款项。借款人不得提前偿还部分应付款项。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人提前还款的，应事先在借款人指定账户中存入足额资金，并按下列顺序足额清偿应付款项：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>1</span>）当期应付未付利息；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>2</span>）剩余本金，指所有尚未支付的借款本金；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>3</span>）流动性补偿费。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>当期应付未付利息的计算公式为：当期应付未付利息<span
+            lang=EN-US>=</span>剩余本金<span lang=EN-US>*</span>借款利率<span lang=EN-US>/360*</span>上一期还款日到提前还款日之间的天数（不含提前还款日）。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>3. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>提前还款违约金按下列计算方式计算：</span></p>
+
+    <p class=MsoNormal><span style='font-size:14.0pt;font-family:宋体;color:#333333'>流动性补偿费<span
+            lang=EN-US>=(</span>剩余利息<span lang=EN-US>-</span>当期应付未付利息<span lang=EN-US>)*</span>补偿率</span></p>
+
+    <p class=MsoNormal><span style='font-size:14.0pt;font-family:宋体;color:#333333'>补偿率根据各信贷产品确定，以</span><span
+            lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman","serif";
+color:#333333'>“</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>云联掌柜</span><span
+            lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman","serif";
+color:#333333'>”</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>平台显示为准。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>4. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>若借款人存在逾期还款时申请提前还款的，则应先支付结清所有逾期款项后方可提前还款。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>六、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>借款的转让</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>各方同意并确认，出借人可将本协议项下的全部或部分借款债权（<span
+            lang=EN-US>&quot;</span>借款债权<span lang=EN-US>&quot;</span>）转让予第三人<span
+            lang=EN-US>,</span>出借人授权雁阵科技将借款债权进行转让<span lang=EN-US>,</span>该转让一经签订转让协议，相关债权转让即对出借人和借款人发生法律效力。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议转让借款债权的，本协议项下条款不受影响，且变更内容对借款人仍有约束力：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>七、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>承诺及保证</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人和出借人各自在此确认为具有完全民事权利能力和完全民事行为能力的自然人或为按照中国法律合法设立并有效存续的企业法人或其他机构，有权签订并履行本协议。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人应根据雁阵科技及其授权的支付机构的不时要求如实向出借人和雁阵科技提供个人及个人控制的企业的经营情况（包括但不限于姓名、身份证号、联系方式、联系地址、职业信息、联系人信息等）以及借款用途等相关信息。借款人承诺并保证其提供的所有信息均为真实、完整和有效的。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>3. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人承诺：如发生任何影响或者可能影响借款人经济状况或借款人控制的企业的经营情况、信用状况、还款能力的事由，包括但不限于借款人及其控制的企业的工作地点、经营地点变化、经营内容变更等事项的变化，借款人应于前述变更发生之日起<span
+            lang=EN-US>2</span>个工作日内通知雁阵科技。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>4. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>借款人承诺根据本协议列明的借款用途使用借款资金，并保证不挪用借款资金或将借款资金用于以下目的和用途：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>1</span>）以任何形式进入证券市场，或用于股本权益性投资；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>2</span>）用于房地产项目开发；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>3</span>）用于国家明令禁止或限制的经营活动。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>八、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>违约</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>发生下列任何一项或几项情形的，视为借款人违约，出借人及雁阵科技有权宣布全部借款提前或即刻到期，借款人应立即偿还所欠全部借款、利息、手续费，支付相关费用，包括但不限于催收、诉讼、调解等费用，并赔偿对出借人，雁阵科技及其授权的支付机构造成的财产损失：</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（1）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人未按贷款方案约定用途使用借款；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（2）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人未按贷款方案约定的期间、日期、数额等偿还应还款金额、费用及其他任何应付款项；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（3）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人违反其在本协议所做的任何承诺和保证的；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（4）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人的任何财产遭受没收、征用、查封、扣押、冻结等可能影响其履约能力的不利事件，且不能及时提供有效补救措施的；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（5）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人的财务状况出现影响其履约能力的不利变化，且不能及时提供有效补救措施的；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（6）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人擅自转让本协议借款债务的；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（7）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人因任何原因未如期通过年检、中止经营、终止营业、被吊销或被收缴营业执照、被扣押冻结主要财产、被宣告破产；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（8）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>出借人或雁阵科技判定借款人已丧失还款能力或债能力明显下降；</span></p>
+
+    <p class=1 align=left style='margin-left:36.0pt;text-align:left;text-indent:
+-36.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>（9）</span><span style='font-size:14.0pt;
+font-family:宋体;color:#333333'>借款人违反了本协议项下有关义务的任何其他约定。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>若借款人违约或根据雁阵科技、出借人合理判断借款人可能发生违约事件的，借款人理解并不可撤销地授权出借人和雁阵科技采取下列任何一项或几项救济措施：</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>1</span>）视为借款人在“云联掌柜”平台的订单协议根本违约，出借人将收回借款本金，订单的供应商有权无条件取消或部分取消该协议项下的服务或发货义务，并追究借款人的违约赔偿责任。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>2</span>）立即暂缓、取消发放全部或部分借款；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>3</span>）宣布已发放借款全部提前到期，借款人应立即偿还所有应付款项；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>4</span>）解除本协议；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>5</span>）将违约借款人的相关信息提交人民银行征信中心；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>6</span>）将违约借款人的相关信息同其他遵守同等隐私政策的公司和平台进行交换和合作；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>7</span>）将违约借款人的相关信息在雁阵科技及合作公司和平台的各类渠道进行公开发布，雁阵科技有权向公众披露其逾期情况和相关信息，包括但不限于借款人姓名、性别、身份证号（生日部分以星号代替）、剩余未还本金、逾期天数等信息，对因披露前述信息可能造成的损失，雁阵科技不承担任何责任；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>8</span>）冻结违约借款人账户及财产；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>9</span>）从违约借款人的借记卡中主动扣取相应款项；</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>（<span lang=EN-US>10</span>）采取法律、法规以及本协议约定的其他救济措施。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>九、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>证据和计算</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议各方确认并同意，委托雁阵科技对本协议项下的任何金额进行计算。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+color:#333333'>2. </span><span style='font-size:14.0pt;font-family:宋体;
+color:#333333'>本协议经出借人和借款人通过网络平台在线点击确认的方式订立。本协议各方保管所有与本协议有关的书面文件或电子信息；</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+color:#333333'>3. </span><span style='font-size:14.0pt;font-family:宋体;
+color:#333333'>本协议（包括本协议的附件、补充协议等）经当事各方通过“云联掌柜”平台以网络在线点击确认的方式订立，正常操作后自动生成电子合同，为各方同意和认可，生效后对各方均具有法律约束力。各方签署纸质合同的，电子合同与当事人签署的纸质合同具有同等法律效力；本合同各方确认并同意由“云联掌柜”平台及<span
+            lang=EN-US>/</span>或其合作第三方电子签名认证机构所提供的与本合同有关的书面合同或者数据电文或者其他电子信息在无明显错误的情况下作为本合同有关事项的有效证据。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>十、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>通知</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议各方根据本协议约定做出的任何通知或文件均应以书面做出，或者由雁阵科技网络平台（如手机短信、会员中心的通知、平台公告等）公布。专人送递的，自交付时即视为送达。以快递或挂号信邮寄的，自快递或挂号信寄出之日起三日即视为送达。如以手机短信、或通过账户会员中心的通知，或平台公告的方式做出的，自发出或公布之日即视为送达。本协议各方在</span><span
+            lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman","serif";
+color:#333333'>“</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>云联掌柜</span><span
+            lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman","serif";
+color:#333333'>”</span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>平台注册的地址及联系方式，均为有效联络方式，如更改联系人、联系地址、联系电话的，应在相关信息变更之日起三日内变更其在平台的注册信息。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>十一、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>法律适用和管辖</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议的签订、履行、终止、解释均适用中国法律。各方同意，因本协议所产生的或与本协议有关的一切争议，各方应协商解决；协商无法达成一致的，各方一致同意将争议提交北京仲裁委员会，按照申请仲裁时该会现行有效的仲裁规则进行仲裁。仲裁裁决是终局的，对各方均有约束力。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>&nbsp;</span></p>
+
+    <p class=2 align=left style='margin-left:21.0pt;text-align:left;text-indent:
+-21.0pt;text-autospace:none'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体;color:#333333'>十二、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;font-family:宋体;color:#333333'>其他</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>1. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议项下各方同意并承诺，本协议项下各方提供的信息均应在提供给本协议其他各方的同时提供给雁阵科技。本协议各方授权雁阵科技根据本协议任意一方的合理要求向其提供本协议各方向其提供的所有信息。</span></p>
+
+    <p class=MsoNormal align=left style='text-align:left;text-autospace:none'><span
+            lang=EN-US style='font-size:14.0pt;font-family:宋体;color:#333333'>2. </span><span
+            style='font-size:14.0pt;font-family:宋体;color:#333333'>本协议中部分条款根据相关法律法规等的规定成为无效，或部分无效时，该等无效不影响本协议项下其他条款的效力，各方仍应履行其在本协议项下的义务。</span></p>
+
+    <p class=MsoNormal style="margin: 0 0 400px 0"><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+color:#333333'>3. </span><span style='font-size:14.0pt;font-family:宋体;
+color:#333333'>本协议项下的附件和补充协议构成本协议不可分割的组成部分，与本协议具有同等法律效力。</span></p>
+
+</div>
+
+</body>
+
+</html>

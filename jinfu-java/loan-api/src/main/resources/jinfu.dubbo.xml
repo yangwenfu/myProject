@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.product.service.LoanProductService" id="loanProductService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.loan.service.LoanApplQueryService" id="loanApplQueryService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.loan.service.LoanApplService" id="loanApplService">
+        <dubbo:method name="closeLongtimeNoused"  timeout="5000"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.loan.service.LoanService" id="loanService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.audit.service.LoanAuditService" id="loanAuditService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.schedule.service.ScheduleService" id="scheduleService">
+        <dubbo:method name="generate" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.repay.service.RepayService" id="repayService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.pay.service.PayRecvOrdService" id="payRecvOrdService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.acct.service.AcctReserveService" id="acctReserveService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.loan.service.LoanQueryService" id="loanQueryService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.risk.service.RiskService" id="riskService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.loan.service.LinkRepaySchdService" id="linkRepaySchdService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.feedback.service.LoanFeedbackService" id="loanFeedbackService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.promo.service.LoanPromoService" id="loanPromoService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.calc.service.LoanCalcService" id="loanCalcService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.overdue.service.LoanOverdueService" id="loanOverdueService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.loan.service.LoanApplUserService" id="loanApplUserService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.log.service.LoanAuditLogService" id="loanAuditLogService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.loan.service.LoanApplExtService" id="loanApplExtService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.coupon.service.LoanCouponService" id="loanCouponService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.thirdparty.nbcb.service.NBCBOrderService" id="nbcbOrderService" check="false"/>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.balance.service.BalanceCashierService" id="balanceCashierService" />
+    <dubbo:reference interface="com.xinyunlian.jinfu.balance.service.BalanceOutlineService" id="balanceOutlineService" />
+    <dubbo:reference interface="com.xinyunlian.jinfu.balance.service.BalanceDetailService" id="balanceDetailService" />
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.router.service.FinanceSourceService" id="financeSourceService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.ATZApiService" id="atzApiService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.ExternalService" id="externalService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.LoanApplOutBankCardService" id="loanApplOutBankCardService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.LoanApplOutUserService" id="loanApplOutUserService" check="false"/>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.LoanApplOutService" id="loanApplOutService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.LoanApplOutAuditService" id="loanApplOutAuditService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.LoanOutRiskService" id="loanOutRiskService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.external.service.LoanApplOutRefundsAdvanceService" id="loanApplOutRefundsAdvanceService" check="false"/>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.carbank.service.LoanCarbankOrderService" id="loanCarbankOrderService" check="false"/>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.creditline.service.LoanUserCreditLineService" id="loanUserCreditLineService" check="false"/>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.depository.service.LoanDepositoryAcctService" id="loanDepositoryAcctService" check="false"/>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.dealer.service.DealerServiceFeeService" id="dealerServiceFeeService" check="false"/>
+
+</beans>

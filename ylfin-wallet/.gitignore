@@ -1,0 +1,14 @@
+*~
+.DS_Store
+.idea/
+*.iml
+*.class
+.classpath
+.project
+.settings
+.metadata
+target/
+*.log
+
+CVS/
+node_modules/

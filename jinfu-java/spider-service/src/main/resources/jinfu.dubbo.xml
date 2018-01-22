@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <!-- 声明需要暴露的服务接口 -->
+
+    <dubbo:service interface="com.xinyunlian.jinfu.spider.service.RiskUserInfoService" ref="riskUserInfoServiceImpl">
+        <dubbo:method name="authLogin" timeout="30000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为30秒 -->
+        <dubbo:method name="spiderUserInfo" timeout="180000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为30秒 -->
+    </dubbo:service>
+
+</beans>

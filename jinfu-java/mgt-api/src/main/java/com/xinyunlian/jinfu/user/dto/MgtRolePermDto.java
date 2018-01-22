@@ -1,0 +1,41 @@
+package com.xinyunlian.jinfu.user.dto;
+
+import java.io.Serializable;
+
+/**
+ * Created by DongFC on 2016-08-19.
+ */
+public class MgtRolePermDto implements Serializable {
+
+    private static final long serialVersionUID = -2176257796420917171L;
+
+    private Long id;
+
+    private Long roleId;
+
+    private Long permissionId;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getRoleId() {
+        return roleId;
+    }
+
+    public void setRoleId(Long roleId) {
+        this.roleId = roleId;
+    }
+
+    public Long getPermissionId() {
+        return permissionId;
+    }
+
+    public void setPermissionId(Long permissionId) {
+        this.permissionId = permissionId;
+    }
+}

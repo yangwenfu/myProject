@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}"/>
+
+    <bean id="seqResetServiceImpl" class="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService" ref="seqResetServiceImpl"  group="dealer-service-app"/>
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.xinyunlian.jinfu.common.security.authc.SecurityService" ref="customerSecurityServiceImpl" group="dealer-customer"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerService" ref="dealerServiceImpl">
+        <dubbo:method name="getDealerPage" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+        <dubbo:method name="updateDealer" timeout="60000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为1分钟 -->
+        <dubbo:method name="createDealer" timeout="60000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为1分钟 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.DealerUserService" ref="dealerUserServiceImpl">
+        <dubbo:method name="createDealerUsers" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerUserOrderService" ref="dealerUserOrderServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerUserStoreService" ref="dealerUserStoreServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerUserNoteService" ref="dealerUserNoteServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerProdService" ref="dealerProdServiceImpl">
+        <dubbo:method name="getDealerProdList" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerUserLogService" ref="dealerUserLogServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerLevelService" ref="dealerLevelServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerGroupService" ref="dealerGroupServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerUserFeedbackService" ref="dealerUserFeedbackServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerSendService" ref="dealerSendServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.api.service.ApiYunMaService" ref="apiYunMaServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.SignInfoService" ref="signInfoServiceImpl">
+        <dubbo:method name="createSignIn" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.exam.service.ExamService" ref="examServiceImpl">
+        <dubbo:method name="createExam" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.exam.service.ExamUserService" ref="examUserServiceImpl">
+        <dubbo:method name="createExamUser" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerOpLogService" ref="dealerOpLogServiceImpl">
+        <dubbo:method name="createDealerOpLog" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.store.service.StoreWhiteListService" ref="storeWhiteListServiceImpl">
+        <dubbo:method name="getStorePage" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.store.service.StoreWhiteSignService" ref="storeWhiteSignServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.wechat.service.WeChatService" ref="weChatServiceImpl">
+        <dubbo:method name="getQrcodeInfo" timeout="5000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.dealer.service.DealerUserSubscribeService" ref="dealerUserSubscribeServiceImpl">
+        <dubbo:method name="createDealerUserSubscribe" timeout="10000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为5秒 -->
+    </dubbo:service>
+
+</beans>

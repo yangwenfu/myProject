@@ -1,0 +1,158 @@
+--liquibase formatted sql
+
+--changeset sephy:1
+CREATE TABLE `prod_inf` (
+  `PROD_ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(20) DEFAULT NULL COMMENT '商品名称',
+  `SKU` varchar(20) DEFAULT NULL COMMENT '商品SKU',
+  `TYPE` varchar(20) DEFAULT NULL COMMENT '商品类别',
+  `DETAIL_TEXT` longtext COMMENT '商品详情',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`PROD_ID`),
+  UNIQUE KEY `SKU` (`SKU`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='商品信息';
+
+CREATE TABLE `prod_code` (
+  `PROD_CODE_ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `ORDER_PROD_ID` bigint(20) DEFAULT NULL COMMENT '关联第三方订单商品id',
+  `PROD_ID` bigint(20) DEFAULT NULL COMMENT '关联商品id',
+  `STORE_ID` bigint(20) DEFAULT NULL COMMENT '关联店铺id',
+  `QRCODE_NO` varchar(20) DEFAULT NULL COMMENT '商品码',
+  `QRCODE_URL` varchar(20) DEFAULT NULL COMMENT '商品码全地址',
+  `BIND_TIME` datetime DEFAULT NULL COMMENT '绑定时间',
+  `FROZEN` tinyint(4) NOT NULL DEFAULT '0' COMMENT '是否冻结 0=解冻 1=冻结',
+  `STATUS` varchar(20) DEFAULT NULL COMMENT '状态',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`PROD_CODE_ID`),
+  UNIQUE KEY `QRCODE_NO` (`QRCODE_NO`),
+  UNIQUE KEY `QRCODE_URL` (`QRCODE_URL`),
+  UNIQUE KEY `ORDER_PROD_ID` (`ORDER_PROD_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='商品码库';
+
+CREATE TABLE `scan_code_record` (
+  `SCAN_CODE_ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `PROD_CODE_ID` bigint(20) DEFAULT NULL COMMENT '关联商品码ID',
+  `SCAN_TOOL` varchar(20) DEFAULT NULL COMMENT '扫码工具',
+  `LNG` varchar(45) DEFAULT NULL COMMENT '经度',
+  `LAT` varchar(45) DEFAULT NULL COMMENT '纬度',
+  `PROVINCE` varchar(64) DEFAULT NULL COMMENT '省',
+  `CITY` varchar(64) DEFAULT NULL COMMENT '市',
+  `AREA` varchar(64) DEFAULT NULL COMMENT '区',
+  `ADDRESS` varchar(255) DEFAULT NULL COMMENT '详细地址',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`SCAN_CODE_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='扫码信息记录';
+
+CREATE TABLE `scan_user_agent` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(20) DEFAULT NULL COMMENT '名称',
+  `USER_AGENT` varchar(20) DEFAULT NULL COMMENT 'UA',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='扫码工具UA';
+
+CREATE TABLE `third_config` (
+  `ID` bigint(11) unsigned NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(20) DEFAULT NULL COMMENT '第三方名称',
+  `APP_ID` varchar(20) DEFAULT NULL COMMENT '简称',
+  `KEY` varchar(20) DEFAULT NULL COMMENT '密钥',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='第三方签名参数';
+
+CREATE TABLE `third_order_inf` (
+  `ORDER_ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `STORE_ID` bigint(20) DEFAULT NULL COMMENT '关联店铺id',
+  `ORDER_NO` varchar(20) DEFAULT NULL COMMENT '订单号',
+  `SUPPLIER` varchar(20) DEFAULT NULL COMMENT '供应商',
+  `PLATFORM` varchar(20) DEFAULT NULL COMMENT '订货平台',
+  `ORDER_TIME` datetime DEFAULT NULL COMMENT '订货时间',
+  `STORAGE_MODE` varchar(20) DEFAULT NULL COMMENT '入库方式',
+  `STORAGE_TIME` datetime DEFAULT NULL COMMENT '入库时间',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`ORDER_ID`),
+  UNIQUE KEY `ORDER_NO` (`ORDER_NO`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='第三方订单';
+
+CREATE TABLE `third_order_prod` (
+  `ORDER_PROD_ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `ORDER_ID` bigint(20) DEFAULT NULL COMMENT '关联第三方订单id',
+  `STORE_ID` bigint(20) DEFAULT NULL COMMENT '关联店铺id',
+  `PROD_ID` bigint(20) DEFAULT NULL COMMENT '关联商品id 为null说明暂不支持商品码',
+  `SKU` varchar(20) DEFAULT NULL COMMENT '商品SKU',
+  `BOX_COUNT` bigint(20) DEFAULT NULL COMMENT '箱数',
+  `PROD_COUNT` bigint(20) DEFAULT NULL COMMENT '商品数',
+  `BIND_COUNT` bigint(20) DEFAULT NULL COMMENT '可绑数量',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`ORDER_PROD_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='第三方订单商品';
+
+--changeset sephy:2
+ALTER TABLE `prod_code` ADD `SELL_TIME` DATETIME  NULL  COMMENT '销售时间'  AFTER `BIND_TIME`;
+ALTER TABLE `prod_code` ADD `PROD_ORDER_NO` DATETIME  NULL  COMMENT '商品销售订单号'  AFTER `STORE_ID`;
+
+--changeset sephy:3
+ALTER TABLE `third_order_prod` CHANGE `BOX_COUNT` `BOX_COUNT` VARCHAR(20)  NULL  DEFAULT NULL  COMMENT '箱数';
+ALTER TABLE `third_order_prod` CHANGE `PROD_COUNT` `PROD_COUNT` VARCHAR(20)  NULL  DEFAULT NULL  COMMENT '商品数';
+
+--changeset sephy:4
+ALTER TABLE `third_order_prod` ADD `PROD_NAME` VARCHAR(20)  NULL  COMMENT '商品名称'  AFTER `PROD_ID`;
+
+--changeset sephy:5
+ALTER TABLE `prod_code` ADD `ORDER_ID` bigint(20)  NULL  COMMENT '关联第三方订单id'  AFTER `STORE_ID`;
+
+--changeset sephy:6
+ALTER TABLE `prod_code` CHANGE `QRCODE_URL` `QRCODE_URL` VARCHAR(255)  CHARACTER SET utf8  COLLATE utf8_general_ci  NULL  DEFAULT NULL  COMMENT '商品码全地址';
+
+--changeset sephy:7
+ALTER TABLE `prod_code` ADD `BATCH_NO` VARCHAR(20)  NULL  DEFAULT NULL  COMMENT '批次号'  AFTER `STATUS`;
+
+--changeset sephy:8
+CREATE TABLE `franchise` (
+  `ID` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `STORE_ID` bigint(20) DEFAULT NULL COMMENT '店铺id',
+  `CREATE_OPID` varchar(20) DEFAULT NULL COMMENT '创建人',
+  `CREATE_TS` datetime DEFAULT NULL COMMENT '创建时间',
+  `LAST_MNT_OPID` varchar(20) DEFAULT NULL COMMENT '最后修改人',
+  `LAST_MNT_TS` datetime DEFAULT NULL COMMENT '最后修改时间',
+  `VERSION_CT` decimal(17,0) DEFAULT '0' COMMENT '版本号',
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `STORE_ID` (`STORE_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='加盟店';
+
+--changeset sephy:9
+ALTER TABLE `prod_code` DROP INDEX `ORDER_PROD_ID`;
+
+--changeset sephy:10
+ALTER TABLE `prod_code` CHANGE `PROD_ORDER_NO` `PROD_ORDER_NO` VARCHAR(50)  CHARACTER SET utf8  COLLATE utf8_general_ci  NULL  DEFAULT NULL  COMMENT '商品销售订单号';
+
+
+

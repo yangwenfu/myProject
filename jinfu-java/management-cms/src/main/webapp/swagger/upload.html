@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Upload Multiple File Request Page</title>
+</head>
+<body>
+
+<div>data文件上传ftp</div>
+<form method="POST" action="/jinfu-mgt/web/system/uploadDataFile" enctype="multipart/form-data">
+    <div>
+        <select name="type">
+            <option value="">请选择</option>
+            <option value="JSON">省市区上传</option>
+        </select>
+    </div>
+    <div><input type="file" name="dateFile"></div>
+    <div><input type="submit" value="上传"></div>
+</form>
+
+</body>
+</html>

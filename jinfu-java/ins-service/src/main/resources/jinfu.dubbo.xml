@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.xinyunlian.jinfu.insurance.service.InsuranceOrderService" ref="insuranceOrderServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.insurance.service.VehicleInsDetailService" ref="vehicleInsDetailServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.pingan.service.PinganRpcService" ref="pinganRpcServiceImpl" timeout="600000"/>
+
+</beans>

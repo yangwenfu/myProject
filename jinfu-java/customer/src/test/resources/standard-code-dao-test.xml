@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:tool="http://www.springframework.org/schema/tool"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc
+	   http://www.springframework.org/schema/mvc/spring-mvc.xsd 
+	   http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans.xsd   
+       http://www.springframework.org/schema/aop 
+       http://www.springframework.org/schema/aop/spring-aop.xsd   
+       http://www.springframework.org/schema/tx 
+       http://www.springframework.org/schema/tx/spring-tx.xsd   
+       http://www.springframework.org/schema/tool 
+       http://www.springframework.org/schema/tool/spring-tool.xsd
+       http://www.springframework.org/schema/context 
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://192.168.100.102:3306/loan?useFastDateParsing=false"/>
+        <property name="username" value="credit_dev"/>
+        <property name="password" value="credit_dev"/>
+    </bean>
+
+
+    <import resource="classpath:jinfu-db-jpa.spring.xml"/>
+
+    <context:component-scan base-package="com.xinyunlian.jinfu">
+        <context:exclude-filter type="regex"
+                                expression=".*\.[^.]*Controller" />
+        <context:exclude-filter type="regex"
+                                expression="com\.xinyunlian\.jinfu\.common\.validation.*" />
+    </context:component-scan>
+
+    <bean id="messageSource"
+          class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="useCodeAsDefaultMessage" value="false" />
+        <property name="defaultEncoding" value="UTF-8" />
+        <property name="fileEncodings" value="UTF-8" />
+        <property name="cacheSeconds" value="1" />
+        <property name="basenames">
+            <list>
+                <value>classpath:messages/error</value>
+                <value>classpath:messages/message</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="appConfig"
+          class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="useCodeAsDefaultMessage" value="false" />
+        <property name="defaultEncoding" value="UTF-8" />
+        <property name="fileEncodings" value="UTF-8" />
+        <property name="cacheSeconds" value="1" />
+        <property name="basenames">
+            <list>
+                <!-- do not change the order, app-config should be the LAST one as it is the default config, see ReloadableResourceBundleMessageSource.resolveCode(String code, Locale locale) -->
+                <value>classpath:env/env-var</value>
+                <value>classpath:app-config</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- do not change the order, app-config should be the FIRST one as it is the default config, see PropertiesLoaderSupport.loadProperties(Properties props) -->
+    <context:property-placeholder
+            location="classpath:app-config.properties, classpath:env/env-var.properties"
+            ignore-unresolvable="true"/>
+
+</beans>

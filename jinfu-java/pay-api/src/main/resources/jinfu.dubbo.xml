@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+
+
+    <dubbo:reference id="userRealAuthService" interface="com.xinyunlian.jinfu.service.UserRealAuthService" />
+    <dubbo:reference id="payRecvService" interface="com.xinyunlian.jinfu.service.PayRecvService" />
+    <dubbo:reference id="payRecvQueryService" interface="com.xinyunlian.jinfu.service.PayRecvQueryService" />
+    <dubbo:reference id="payRecvToDTOService" interface="com.xinyunlian.jinfu.service.toDto.PayRecvToDTOService" />
+    <dubbo:reference id="payRecvQueryToDTOService" interface="com.xinyunlian.jinfu.service.toDto.PayRecvQueryToDTOService" />
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.channel.service.ChannelService" id="channelService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.channel.service.ChannelCacheService" id="channelCacheService"/>
+
+</beans>

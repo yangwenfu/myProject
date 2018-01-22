@@ -1,0 +1,616 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=gb2312">
+    <meta name=Generator content="Microsoft Word 15 (filtered)">
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face
+        {font-family:宋体;
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        @font-face
+        {font-family:"Cambria Math";
+            panose-1:2 4 5 3 5 4 6 3 2 4;}
+        @font-face
+        {font-family:Calibri;
+            panose-1:2 15 5 2 2 2 4 3 2 4;}
+        @font-face
+        {font-family:"\@宋体";
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            font-size:10.5pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+        {mso-style-link:"批注文字 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            font-size:10.5pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+        {mso-style-link:"批注主题 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            font-size:10.5pt;
+            font-family:"Calibri",sans-serif;
+            font-weight:bold;}
+        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+        {mso-style-link:"批注框文本 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            font-size:9.0pt;
+            font-family:"Calibri",sans-serif;}
+        span.Char
+        {mso-style-name:"批注文字 Char";
+            mso-style-link:批注文字;}
+        span.Char0
+        {mso-style-name:"批注主题 Char";
+            mso-style-link:批注主题;
+            font-weight:bold;}
+        span.Char1
+        {mso-style-name:"批注框文本 Char";
+            mso-style-link:批注框文本;}
+        .MsoChpDefault
+        {font-size:10.0pt;
+            font-family:"Calibri",sans-serif;}
+        /* Page Definitions */
+        @page WordSection1
+        {size:612.0pt 792.0pt;
+            margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+        div.WordSection1
+        {page:WordSection1;}
+        -->
+    </style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>云联金服支付用户服务协议</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>重要提示：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>网新新云联金融信息服务（浙江）有限公司（为了便于理解，以下简称</span><span
+            style='font-size:11.0pt;line-height:115%'>“</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>本公司</span><span style='font-size:11.0pt;
+line-height:115%'>”</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>）依据本协议为用户（以下简称</span><span style='font-size:11.0pt;line-height:
+115%'>“</span><span style='font-size:11.0pt;line-height:115%;font-family:宋体'>您</span><span
+            style='font-size:11.0pt;line-height:115%'>”</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>）提供支付服务。本协议对您和本公司均具有法律约束力。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>在使用金服支付服务前，您应当阅读并遵守本协议、《金服用户注册协议》）（以下统称为</span><span
+            style='font-size:11.0pt;line-height:115%'>“</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>附属协议</span><span style='font-size:11.0pt;
+line-height:115%'>”</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>）。本公司在此特别提醒您认真阅读并充分理解本协议和附属协议各条款，特别是免除或限制本公司的责任、限制您的权利、规定争议解决方式的相关条款。请您审慎阅读并选择是否接受本协议和附属协议（未成年人应在监护人陪同下阅读）。除非您接受本协议和附属协议的所有条款，否则您无权使用金服支付服务。您一经开通或使用金服支付服务，即视为您已理解并接受本协议和附属协议。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>一、【本服务】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1.1 金服支付服务，指本公司依托云联金服平台为收付款人之间提供的货币资金转移服务。（下称</span><span
+            style='font-size:11.0pt;line-height:115%'>“</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>本服务</span><span style='font-size:11.0pt;
+line-height:115%'>”</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>）</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1.2 本服务包括不限于委托扣款、认证支付、云码绑定等服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1.3 您理解并同意，本服务的上述流程，可能因适用场景和功能存续情况的变化而发生调整，所以具体以本公司实际提供的服务流程为准。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1.4 您同意并授权本公司在提供本服务前或提供本服务期间向有权机关或组织查询或核实您的相应信息，如身份信息、账户信息、外汇购买额度等。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1.5 您理解并同意，本公司有权根据业务运营的调整，单方修改或变更本协议的内容，并将通过本公司网站公布最新的服务协议，本公司将不另作个別通知。若您于本协议或附属协议发生任何修改或变更后继续使用本服务，则视为您已阅读、了解并同意接受上述修改或变更，若您不同意上述修改或变更，应立即停用本服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>二、【账户和信息安全】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.1 您应自行设置金服用户账号的登录密码和金服支付密码，并予以妥善保管。您的账号将与本公司给您配置的支付账户关联，不能单独使用，若您的账号注销，则与其关联的支付账户也随之注销，您将无法通过金服账号继续使用本服务。您需根据本服务的功能需求提交您的姓名、身份证号、手机号、银行卡信息等信息。您授权本公司在法律规定的范围内保存您的姓名、身份证号、手机号、银行卡号、交易订单、交易记录等信息，以供向您持续性地提供和推广优质服务。您同意：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.1.1按照本公司要求准确提供并在取得金服支付账户后及时更新您正确、最新及完整的身份信息及相关资料。若本公司有合理理由怀疑您提供的信息或相关资料错误、不实、过时或不完整的，本公司有权暂停或终止向您提供部分或全部本服务。本公司对此不承担任何责任，您将承担因此产生的任何直接或间接支出。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.1.2您应当准确提供并及时更新您提供的联系方式，以便本公司与您进行及时、有效联系。您应完全独自承担因通过这些联系方式无法与您取得联系而导致的您在使用本服务过程中遭受的任何损失或增加任何费用等不利后果。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.1.3您应及时更新您的身份信息及相关资料，因您未及时更新资料导致的一切后果，均应由您自行承担，该后果包括但不限于导致本服务无法提供或提供时发生任何错误、金服支付账户及该账户内余额被别人盗用，且您不得将此作为取消交易、拒绝付款的理由。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.1.4若您为个人用户，您确认，本公司有权在出现下列任一情形时要求核对您的有效身份证件或其他必要文件，留存有效身份证件的扫描件，且完成本公司要求的相关身份认证。您应积极配合，否则本公司有权限制或停止向您提供部分或全部本服务：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>A、您办理充值、收取或支付单笔金额人民币1万元以上或者外币等值1000美元以上业务的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>B、您全部金服支付账户项下30天内充值、收取及支付总金额累计人民币5 万元以上或外币等值1万美元以上的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>C、您全部金服支付账户余额连续10天超过人民币5000元或外币等值1000美元的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>D、您使用本服务买卖金融产品或服务的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>E、本公司认为您的身份信息或相关资料存在疑点，或交易行为、交易情况出现异常的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>F、本公司认为应核对或留存您身份证件或其他必要文件的其他情形的。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>本条款所称</span><span style='font-size:11.0pt;line-height:
+115%'>“</span><span style='font-size:11.0pt;line-height:115%;font-family:宋体'>以上</span><span
+            style='font-size:11.0pt;line-height:115%'>”</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>,包括本条。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.1.5若因国家法律法规、部门规章或监管机构的要求，本公司需要您补充提供任何身份信息或相关资料时，如您不能及时提供，本公司有权暂停或终止向您提供部分或全部本服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.1.6您在金服支付账户中设置的姓名或昵称、头像等必须遵守法律法规、公序良俗、社会公德，且不会侵害其他第三方的合法权益，否则本公司有权对您的金服支付账户采取限制措施，包括但不限于屏蔽、撤销您金服支付账户的姓名、昵称、头像，停止提供部分或全部本服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.2 您应妥善保管下列信息、资料和硬件设备：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（1）银行卡及其密码、CVV码、有效期等卡片信息；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（2）金服账号及其登录密码；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（3）金服支付密码、手势密码；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（4）手机等移动终端及SIM卡信息；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（5）人脸信息的生物识别。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>您应妥善保管上述资料、信息和硬件设备，并确保您的手机等移动终端设备在安全、无病毒、未被入侵、未被监控、未被非法控制的环境下运行和使用。若您泄露了上述信息中的任意一项或遗失了上述硬件设备，由此导致的风险和损失应由您自行承担。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.3 发生下列任一情形时，您应及时联系本公司的客服部门，以减少可能发生的损失：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（1）您不慎遗失或泄露了本协议第2.2条所列信息的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（2）您遗失了您的手机等移动终端或SIM卡的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（3）您在开设银行账户时预留了他人的手机号码的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（4）第三人冒用或盗用您的身份信息或账户信息的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（5）其他任何未经您本人合法授权，却在使用您的金服账号、本服务或您的银行账户的。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>如发生上述情形，请及时拨打本公司客服电话：400-801-9906。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>若您未及时通知本公司，您应自行承担因此遭受的损失，但有确切证据证明本公司存在故意或重大过失的除外。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>2.4 本公司有权根据国家法律法规、规章制度、行业规范、监管政策和要求的规定，对您的支付账户的数量、类别、限额、功能进行调整，调整的方式将根据您的支付账户风险管理情况而定，若您已依法申请调整并审核通过的，以您的申请为准。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>三、【本服务的功能】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>3.1 委托扣款</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>您可以使用本服务进行自动委托扣款，本公司将根据您申请，从您的您关联的银行账户扣划相应资金至应还款的账户。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体;color:black'>3.2 查询</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>本公司将记录您使用本服务的交易情况，您可以在客户端</span><span style='font-size:
+11.0pt;line-height:115%'>“</span><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>云联掌柜</span><span style='font-size:11.0pt;line-height:115%'>”</span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>、</span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>金服商城或其他金服相关对应客户端</span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>上查询到对应的交易记录。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>3.3 添加/解绑银行卡</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>您可以在客户端</span><span style='font-size:11.0pt;line-height:
+115%'>“</span><span style='font-size:11.0pt;line-height:115%;font-family:宋体'>云联掌柜</span><span
+            style='font-size:11.0pt;line-height:115%'>”</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>、网站门户</span><span style='font-size:11.0pt;
+line-height:115%'>“</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>金服商城</span><span style='font-size:11.0pt;line-height:115%'>”</span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>关联新的银行卡或解绑银行卡。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>3.4 修改/重置密码</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>您可以使用绑定手机验证码对原有密码进行修改，也可以提供必要的身份核实信息例如手机号，短信验证码用于申请密码重置。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>&nbsp;</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>四、【本服务的使用】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.1 您的金服账号在登录状态下发出的支付指令均视为您本人发出的支付指令，支付指令一旦发出即立即生效、不可撤销，本公司有权根据您发出的支付指令进行资金扣划和归集操作。您应妥善保管您的手机等电子设备、支付密码、短信校验码、数字证书、电子签名、以及用于金服支付的条码、二维码等信息和资料，因您泄露、遗失、复制、转交前述信息和资料而导致的损失，由您自行承担。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.2 为了给您带来更好的支付体验，您理解并同意，对于一定额度、一定次数内的支付交易（具体以相关使用规则为准），本公司无需验证您的金服支付密码即可根据您或商户或收款人的交易指令对您的关联银行账户进行资金扣划和归集操作。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.3 您理解并同意，本公司并非银行或金融机构，无法提供资金即时到账服务，您认可资金于途中流转需要合理时间。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.5 您使用本公司服务期间，本公司无须对为您保管、代收或代付款项的货币贬值、汇率损失和利息损失及其他风险担责，并且本公司无须向您支付此等款项的任何</span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>利息</span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.6 当您使用本服务时，如您未遵守法律法规、本协议及相关操作提示和业务规则，由此造成的风险和损失由您自行承担，本公司不向您承担任何风险和损失。您在开户之日起6个月内无交易记录的，本公司有权暂停对您的所有服务，待重新核实身份后，可以恢复服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.7 您使用本服务时，应当仔细确认交易及其金额后进行支付。本公司有权根据您的指令扣划资金给收款人，届时您不应以未在交易单据中签名、签名不符、非本人意愿交易等原因要求本公司退款或承担其他责任。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.8 您对使用本服务过程中发出指令的合法性、真实性、完整性及有效性承担全部责任，本公司依照您的指令进行操作的一切风险由您自行承担。您认可本服务的相关交易信息均以本公司系统记录的为准。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.9 您应按照本公司的要求完善您的身份信息以最终达到实名认证， 否则您可能会受到包含但不限于委托扣款、云码绑定、认证支付的限制，且本公司有权对您的金服支付账户暂停收付款，直至您达到实名认证的标准。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.10 您同意本公司有权以电子邮件、云联金服网站公告、电话或传真等方式通知您关于使用本服务的信息。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.11 您承诺不为任何非法目的或以任何非法方式使用本服务，也不将本服务用于禁止或限制物品的交易。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>2</span><span lang=EN-US style='font-size:
+11.0pt;line-height:115%;font-family:宋体'> </span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>您不得利用本服务实施下列任一行为：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（1） 反对宪法所确定的基本原则，危害国家安全、泄漏国家秘密、颠覆国家政权、破坏国家统一；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（2） 侵害他人名誉、隐私权、商业秘密、商标权、著作权、专利权及其他权利；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（3） 冒用他人名义使用本服务或电话号码与身份证号无法一一对应的；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（4） 从事任何不法交易行为，如贩卖枪支、毒品、禁药、盗版软件，在网上买卖POS机（包括MPOS）、刷卡器等受理终端，或贩卖其他违禁物；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（5） 提供赌博资讯或以任何方式引诱他人参与赌博；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（6） 涉嫌实施或实施洗钱、套现或进行传销活动；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（7） 使用无效信用卡或他人信用卡进行交易；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（8） 使用无效银行账户或他人银行账户进行交易；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（9） 侵害本服务系統；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（10） 违反法律法规、监管规定、本公司或其关联公司网站的条款、协议、规则、通告等相关规定，而被上述任一主体终止提供服务；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（11）出租、出借、出售、购买银行账户或者支付账户，假冒他人身份或者虚构代理关系开立银行账户或者支付账户；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（12） 从事其他违反国家法律、法规、规章及政策法令的行为，或其他违反本协议的行为。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>4.1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>3</span><span lang=EN-US style='font-size:
+11.0pt;line-height:115%;font-family:宋体'> </span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>您同意，对于您通过金服支付发生的交易，您已经不可撤销地授权本公司按照您与您的交易对象之间的协议及其制定并发布的规则进行处理。同时，您不可撤销地授权本公司有权从第三方获取您的相关信息（包括但不限于交易商品描述、物流信息、行为信息、账户相关信息等）。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>五、【手续费】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>您理解，本服务附带营运成本，为了持续营运，本公司有权向您收取手续费，手续费的收取方式以您在使用本服务时收到的各类通知、告知为准。本公司发出的有关收费的各类通知、告知均为本协议的组成部分，您若在收到有关收费的各类通知或告知后仍然使用本服务，则视为您已无条件同意按照相关通知、告知所约定的收费标准和收费条件向本公司支付手续费。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>六、【遵守当地法律监管】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>6.1 您在使用本服务过程中应当遵守当地相关的法律法规，并尊重当地的道德和风俗习惯。如果您的行为违反了当地法律法规或道德风俗，您应当为此独立承担责任。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>6.2 如您所属的国家或地区禁止或限制本协议内容的全部或部分，则您应立即停止使用本服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>6.3 您应避免因使用本服务而使本公司卷入政治和公共事件，否则本公司有权暂停或终止对您的服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>七、【责任范围及限制】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>7.1 本公司仅对本协议中所列明的义务承担责任，且该责任范围仅以您实际遭受的经济损失为限。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>7.2 本公司仅提供本服务，并不参与具体的商品或服务交易，您使用本服务时，因商品或服务交易本身所产生的任何纠纷或责任应由您自行解决或承担</span><span
+            class=MsoCommentReference><span style='font-family:宋体'>且</span></span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>概与本公司无关。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>7.3 本服务是在现有技术水平下提供的，本公司将尽力为您提供服务，但无法保证该服务完全符合您的预期。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>八、【不可抗力及其他免责事由】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>8.1&nbsp; 在使用本服务的过程中，可能会遇到不可抗力等风险因素，使本服务发生中断。不可抗力是指不能预见、不能克服、不能避免且对一方或双方造成重大影响的客观事件，包括但不限于洪水、地震、瘟疫和风暴等自然灾害以及战争、动乱、政府行为等社会事件。出现上述情况时，本公司将努力在第一时间与相关单位配合及时进行修复，但由此给您造成的损失本公司在法律允许的范围内免责。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>8.2 在法律允许的范围内，本公司对以下情形导致的服务中断或受阻不承担责任：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（1） 受到计算机病毒、木马或其他恶意程序、黑客攻击的破坏；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（2） 您或本公司的电脑软件、系统、硬件和通信线路出现故障；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（3） 您操作不当；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（4） 您通过非本公司授权的方式使用本服务；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（5） 银行系统或银行网络出现故障；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（6） 其他本公司无法控制或合理预见的情形。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>8.3 您在使用本服务的过程中，本公司不对下列风险担责：</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（1） 来自他人匿名或冒名的含有威胁、诽谤、令人反感或非法内容的信息；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（2） 遭受他人误导、欺骗或其他导致任何心理、生理上的伤害以及经济上的损失；</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>（3） 其他因网络信息或您</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>的</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>行为引起的风险。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>8.4 您在使用本服务的过程中，本公司在法律规定的范围内可处理违法违规内容，但其不构成本公司的义务或承诺。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>九、【暂停、中断或终止服务】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>9.1 本公司有权基于业务调整或风险管控的需要，暂停、中断或终止向您提供本服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>9.2 您理解，本公司有权依据相关法律规定对您的金服支付交易进行风险管控。您同意，当本公司基于单方判断，认为您有可疑交易或有违反法律规定或本协议约定之情形时，本公司有权不经通知，先行暂停、中断或终止向您提供本服务（包括但不限于对您金服支付账户名下的款项和在途交易采取限制交易、暂停交易、取消交易、调账等措施），并拒绝您使用本服务之部分或全部功能。若本公司决定终止向您提供本服务的全部或部分服务，本公司有权将您的金服支付账户中的全部合法资金退回到您绑定的银行账户，若本公司判断您的金服支付账户中的资金涉嫌违法或犯罪事项，本公司有权对您的金服支付账户及账户中的资金采取关闭收付款、提现等功能的措施，并根据国家有权机关的指令对资金予以冻结、扣划。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>9.3 本公司发现您违反本协议或附属协议约定的，有权暂停、中断或终止向您提供本服务，注销您的金服支付账户，并在一段时间内不再向您提供任何服务。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>十、【知识产权保护】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>10</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.1 本公司在本服务中提供的内容（包括但不限于网页、文字、图片、音频、视频、图表等）的知识产权归本公司及其关联公司所有，您在使用本服务中所产生内容的知识产权归您或相关权利人所有。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>10</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.2 除另有特别声明外，本公司提供本服务时所依托软件的著作权、专利权及其他知识产权均归本公司及其关联公司所有。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>0</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.3 本公司在本服务中所使用的</span><span style='font-size:
+11.0pt;line-height:115%'>“</span><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>云联金服</span><span style='font-size:11.0pt;line-height:115%'>”</span><span
+            style='font-size:11.0pt;line-height:115%;font-family:宋体'>商业标识，其著作权或商标权归本公司及其关联公司所有。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>0</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.4 上述知识产权均受到法律保护，未经本公司、您或相关权利人书面许可，任何人不得以任何形式进行使用或创造相关衍生作品。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>十</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>一</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>、【法律适用及争端解决】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>1</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.1 本协议签订地为中华人民共和国浙江省宁波市江北区。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>1</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.2 本协议的成立、生效、履行、解释及纠纷解决，适用中华人民共和国大陆地区法律（不包括冲突法）。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>1</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.3 您和本公司因本协议产生任何纠纷或争议的，首先应友好协商解决；协商不成的，您同意将纠纷或争议提交至本协议签订地（宁波市江北区）有管辖权的人民法院解决。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>十</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>二</span><span style='font-size:11.0pt;line-height:115%;
+font-family:宋体'>、【其他条款】</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>2</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.1 本协议所有条款的标题仅为阅读方便，本身并无实际涵义，不能作为本协议涵义解释的依据。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>1</span><span lang=EN-US style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>2</span><span style='font-size:11.0pt;
+line-height:115%;font-family:宋体'>.2 本协议条款无论因何种原因部分无效或不可执行，其余条款仍有效，对双方具有约束力。</span></p>
+
+    <p class=MsoNormal align=left style='margin-bottom:10.0pt;text-align:left;
+line-height:115%;text-autospace:none'><span style='font-size:11.0pt;line-height:
+115%;font-family:宋体'>网新新云联金融信息服务（浙江）有限公司</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

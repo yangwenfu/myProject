@@ -1,0 +1,42 @@
+<configuration>
+	<contextName>standard-code</contextName>
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date %level %logger{55} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="SIFT" class="ch.qos.logback.classic.sift.SiftingAppender">
+		<!-- in the absence of the class attribute, it is assumed that the desired
+			discriminator type is ch.qos.logback.classic.sift.MDCBasedDiscriminator -->
+		<discriminator>
+			<key>jobId</key>
+			<defaultValue>memberCenter-service</defaultValue>
+		</discriminator>
+		<sift>
+			<appender name="FILE-${jobId}"
+					  class="ch.qos.logback.core.rolling.RollingFileAppender">
+				<file>/data/logs/${jobId}/${jobId}.log</file>
+				<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+					<fileNamePattern>/data/logs/${jobId}/${jobId}-%d{yyyy-MM-dd}.%i.log
+					</fileNamePattern>
+					<timeBasedFileNamingAndTriggeringPolicy
+							class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+						<maxFileSize>50MB</maxFileSize>
+					</timeBasedFileNamingAndTriggeringPolicy>
+					<maxHistory>30</maxHistory>
+				</rollingPolicy>
+				<encoder>
+					<pattern>%date %level [%thread] [user: %X{userName:-unknown}] %logger{55} - %msg%n</pattern>
+				</encoder>
+			</appender>
+		</sift>
+	</appender>
+
+	<logger name="com.xinyunlian.jinfu" level="debug" />
+
+	<root level="info">
+		<appender-ref ref="console" />
+		<appender-ref ref="SIFT" />
+	</root>
+</configuration>

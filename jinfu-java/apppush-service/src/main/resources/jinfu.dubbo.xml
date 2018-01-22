@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}"/>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.push.service.PushService" ref="pushServiceImpl">
+        <dubbo:method name="createPushMessage" timeout="30000"/>
+        <dubbo:method name="getPushlistByUserId" timeout="30000"/>
+        <dubbo:method name="getPushlistForWebByUserId" timeout="30000"/>
+        <dubbo:method name="getunreadMessageCountByUserId" timeout="30000"/>
+        <dubbo:method name="readMessage" timeout="30000"/>
+        <dubbo:method name="deleteMessage" timeout="30000"/>
+        <dubbo:method name="detail" timeout="30000"/>
+        <dubbo:method name="updateRegistrationId" timeout="30000"/>
+        <dubbo:method name="pushJob" timeout="30000"/>
+    </dubbo:service>
+
+</beans>

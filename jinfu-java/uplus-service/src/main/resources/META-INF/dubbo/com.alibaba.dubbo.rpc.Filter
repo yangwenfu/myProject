@@ -1,0 +1,2 @@
+dubboProviderFilter=com.xinyunlian.jinfu.common.filter.dubbo.DubboProviderFilter
+dubboConsumerFilter=com.xinyunlian.jinfu.common.filter.dubbo.DubboConsumerFilter

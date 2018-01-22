@@ -1,0 +1,739 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <meta name=Generator content="Microsoft Word 15 (filtered)">
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face
+        {font-family:宋体;
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        @font-face
+        {font-family:"Cambria Math";
+            panose-1:2 4 5 3 5 4 6 3 2 4;}
+        @font-face
+        {font-family:"\@宋体";
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:10.0pt;
+            line-height:20.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;}
+        p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+        {mso-style-link:"批注文字 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-indent:10.0pt;
+            line-height:20.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;}
+        p.MsoHeader, li.MsoHeader, div.MsoHeader
+        {mso-style-link:"页眉 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:center;
+            text-indent:10.0pt;
+            line-height:12.0pt;
+            layout-grid-mode:char;
+            border:none;
+            padding:0cm;
+            font-size:9.0pt;
+            font-family:"Times New Roman",serif;}
+        p.MsoFooter, li.MsoFooter, div.MsoFooter
+        {mso-style-link:"页脚 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-indent:10.0pt;
+            line-height:12.0pt;
+            layout-grid-mode:char;
+            font-size:9.0pt;
+            font-family:"Times New Roman",serif;}
+        p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+        {mso-style-link:"批注主题 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-indent:10.0pt;
+            line-height:20.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;
+            font-weight:bold;}
+        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+        {mso-style-link:"批注框文本 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:10.0pt;
+            font-size:9.0pt;
+            font-family:"Times New Roman",serif;}
+        span.Char
+        {mso-style-name:"页眉 Char";
+            mso-style-link:页眉;
+            font-family:"Times New Roman",serif;}
+        span.Char0
+        {mso-style-name:"页脚 Char";
+            mso-style-link:页脚;
+            font-family:"Times New Roman",serif;}
+        span.Char1
+        {mso-style-name:"批注框文本 Char";
+            mso-style-link:批注框文本;
+            font-family:"Times New Roman",serif;}
+        span.Char2
+        {mso-style-name:"批注文字 Char";
+            mso-style-link:批注文字;
+            font-family:"Times New Roman",serif;}
+        span.Char3
+        {mso-style-name:"批注主题 Char";
+            mso-style-link:批注主题;
+            font-family:"Times New Roman",serif;
+            font-weight:bold;}
+        .MsoChpDefault
+        {font-size:10.0pt;}
+        /* Page Definitions */
+        @page WordSection1
+        {size:595.3pt 841.9pt;
+            margin:72.0pt 90.0pt 72.0pt 90.0pt;
+            layout-grid:15.6pt;}
+        div.WordSection1
+        {page:WordSection1;}
+        /* List Definitions */
+        ol
+        {margin-bottom:0cm;}
+        ul
+        {margin-bottom:0cm;}
+        -->
+    </style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+    <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:12.0pt;
+margin-left:0cm;text-indent:0cm;line-height:normal'><b><span lang=EN-US
+                                                             style='font-size:14.0pt;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><b><span style='font-size:14.0pt;font-family:宋体'>小烟贷贷款综合协议</span></b></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                      style='font-size:10.5pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:10.5pt;line-height:150%;font-family:宋体'>协议编号：<span
+            lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人：</span><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${signName}</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>身份证号：</span><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${idCardNo}</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>手机号码：</span><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${mobile}</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>电子邮箱：</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                      style='font-size:10.5pt;line-height:150%'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>贷款人：宁波云联小额贷款有限公司</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>地址：宁波市江北区长兴路</span><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%'>677</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>号中策世纪博园</span><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%'>18</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>号楼</span><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%'>11</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>楼</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                      style='font-size:10.5pt;line-height:150%'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>特别提醒：借款人在确认同意本协议之前，应事先了解本协议条款的全部内容，同意向贷款人申请贷款（以下简称“本贷款”或“贷款”）。一旦借款人在网新新云联金融信息服务（浙江）有限公司（以下简称“云联金服”）的网站或其他与本贷款相关的软件客户端（以下简称“贷款平台”）进行在线电子签约，</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>即意味着借款人已阅读本协议所有条款，并对本协议条款的含义及相应的法律后果已全部通晓并充分理解，同意接受本协议约束。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.1pt'><b><span style='font-size:10.5pt;
+font-family:宋体'>为充分维护借款人的合法权益，贷款人特提醒借款人特别关注本协议条款中的黑体及加下划线部分。</span></b><span
+            style='font-size:10.5pt;font-family:宋体'>本协议若干条款含有限制或免除贷款人责任的内容，请借款人务必仔细阅读。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第一条 贷款基本信息</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>为了保护借款人的个人信息，本合同在贷款网络平台展示时部分隐藏借款人的身份信息及收款账户信息。借款人知晓并同意，在线确认本协议的“借款人收款账户”的持有人为本协议项下的借款人<span
+            lang=EN-US>,</span>且本协议对借款人个人信息的部分隐藏不影响本协议的效力。以下“借款人收款账户”是指借款人在贷款网络平台自行填写或选择的收款账户。</span></p>
+
+    <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=604
+           style='border-collapse:collapse;border:none'>
+        <tr>
+            <td width=150 valign=top style='width:112.55pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>贷款本金数额</span></p>
+            </td>
+            <td width=454 colspan=3 valign=top style='width:340.65pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>人民币：</span><span
+                        lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${loanAmt}</span><span
+                        lang=EN-US style='font-size:9.0pt;line-height:150%;font-family:宋体'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;</span><span style='font-size:9.0pt;line-height:150%;
+  font-family:宋体'>；大写：</span><span lang=EN-US style='font-size:10.5pt;
+  line-height:150%;color:black'>${loanAmtDX}</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=150 valign=top style='width:112.55pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>借款人月偿还本息金额</span></p>
+            </td>
+            <td width=454 colspan=3 valign=top style='width:340.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>固定金额：人民币：</span><span
+                        lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${monthRepayAmt}</span><span
+                        lang=EN-US style='font-size:9.0pt;line-height:150%;font-family:宋体'> </span><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>；大写：</span><span
+                        lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${monthRepayAmtDx}</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=150 valign=top style='width:112.55pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>贷款初始月利率</span></p>
+            </td>
+            <td width=156 valign=top style='width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                                  style='font-size:10.5pt;line-height:150%;color:black'>${loanRT}</span></p>
+            </td>
+            <td width=99 valign=top style='width:74.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                                  style='font-size:9.0pt;line-height:150%;font-family:宋体'>&nbsp;</span><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>还款分期月数</span></p>
+            </td>
+            <td width=199 valign=top style='width:149.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                                  style='font-size:10.5pt;line-height:150%;color:black'>${termLen}</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=150 valign=top style='width:112.55pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>合同签订日</span></p>
+            </td>
+            <td width=156 valign=top style='width:117.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                                  style='font-size:10.5pt;line-height:150%;color:black'>${signDate}</span></p>
+            </td>
+            <td width=99 valign=top style='width:74.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:18.0pt;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>还款日</span></p>
+            </td>
+            <td width=199 valign=top style='width:149.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>每月</span><span
+                        lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${dueDay}</span><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>日</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width=150 valign=top style='width:112.55pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>还款起止日期</span></p>
+            </td>
+            <td width=454 colspan=3 valign=top style='width:340.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+                <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+                        style='font-size:9.0pt;line-height:150%;font-family:宋体'>自贷款发放之日起至</span><span
+                        lang=EN-US style='font-size:10.5pt;line-height:150%;color:black'>${dueDate}</span></p>
+            </td>
+        </tr>
+    </table>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>注：上述贷款基本信息中列明的贷款还款日根据实际放款日进行调整（其他相关日期应相应调整）；贷款利率、借款人月偿还本息金额等可能因借款期数不同而发生变化。上述还款明细中列明的每月还款金额若与贷款平台发布或更新的还款明细不一致的，以贷款平台上发布或更新的还款明细为准。除上述应支付金额外，借款人如还需支付相关费用，具体金额以借款人与相关服务提供方签署的《贷款咨询与服务协议》为准。<span
+            lang=EN-US>&nbsp;</span></span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第二条 借款人确认</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人在签约前须确认并保证借款人同时满足以下条件，并承诺在本协议有效期内始终有效：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人具有签订和履行本协议的资格和能力，借款人可以独立地作为一方诉讼<span
+            lang=EN-US>/</span>仲裁主体；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人签订本协议已获得所有必需的授权或批准，签订和履行本协议不违反借款人作为签约一方的任何协议以及相关法律法规的规定，与借款人应承担的其他协议项下的义务均无抵触；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人使用贷款资金交易行为真实、合法、有效，不存在任何虚假交易；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>4</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、使用以借款人本人名义注册的银行账户或电子虚拟账户在贷款网络平台所从事的所有行为均视为借款人本人行为，包括但不限于订立本协议、申请支用贷款和归还贷款等，该等行为的法律后果均由借款人本人承担；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>5</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人有足够的偿债能力归还本协议项下的贷款本息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>6</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人通过贷款平台提供给贷款人的所有文件和资料都是真实、准确、完整和有效的，不存在虚假记载、重大遗漏或误导性陈述；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>7</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、本协议第一条所述借款人的收款账户为借款人所有并使用；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>8</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人已阅读并同意《个人征信综合授权书》、《委托扣款协议书》等与本协议相关授权书的所有条款。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第三条 协议构成</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议由本协议条款、借款人在贷款网络平台信息系统填写的所有信息、贷款网站各项规则和贷款网络平台其他与本贷款相关的页面信息组成，各组成部分均具有法律效力，与本协议条款有冲突的以本协议条款为准。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第四条 协议的生效</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议在经过贷款人审核通过并将贷款资金划入本协议第一条约定的借款人收款账户时，本协议始在协议双方之间生效。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第五条 贷款发放</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人同意，贷款人将贷款资金全额划入本协议第一条约定的借款人收款账户即视为贷款人履行了贷款发放义务。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议项下的贷款发放日为贷款资金划入借款人收款账户的日期。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第六条 贷款金额</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>贷款金额具体参见本协议第一条，借款人可登录贷款网络平台查询。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第七条 贷款期限</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>除本协议另有约定外，借款人的贷款期限具体参见本协议第一条，从贷款发放之日起计算，不可展期。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>发生以下任一情形时，贷款人有权自主决定本协议项下已发放的部分或全部贷款提前到期：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人未能按本协议约定偿付到期本金和<span
+            lang=EN-US>/</span>或利息的；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、贷款人发现借款人存在非法交易的；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人发生其他重大不利变化，已经或可能影响借款人履行本协议项下义务的能力。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第八条 贷款用途</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议项下的贷款专用于<u> 订购烟草和非烟商品
+</u>之用。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm'><span style='font-size:10.5pt;
+font-family:宋体'>第九条 贷款利率、违约金的计算方式和计息、结息、付息</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>&nbsp; </span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>一、贷款利率及违约金的计算方式</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                      style='font-size:10.5pt;line-height:150%;font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>（一）贷款利率</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人的贷款利率将按月计算，具体参见本协议第一条。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.1pt;line-height:150%'><b><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>贷款人拥有调整贷款利率之权利，贷款人将以书面形式通知借款人，自前述书面通知送达之日起新发放的贷款适用调整后的利率；但对于之前已发放的贷款，其贷款利率不受贷款人同档次贷款利率调整的影响。</span></b></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>（二）逾期违约金和其他违约金的收取办法</span></p>
+
+    <p class=MsoNormal style='text-indent:21.1pt;line-height:150%'><b><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人逾期付息或逾期还款的违约金：除应继续按本协议第一条约定的利率支付利息或逾期利息外，还应每日按日息万分之五单独计算违约金；借款人未按本协议约定用途使用贷款的违约金：在上述（一）项贷款初始日利率水平上加收<span
+            lang=EN-US>100%</span>。</span></b></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>二、计息、结息和付息</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>贷款利息自贷款发放月起<span
+            lang=EN-US>(</span>含发放月<span lang=EN-US>)</span>计算，按月计息，按本协议第九条的约定进行结息、付息。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.1pt;line-height:150%'><b><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>如借款人未能按期归还贷款本金，贷款人有权自逾期之日起以所有未还本金为基数按本协议约定的逾期违约金利率计收违约金。</span></b></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十条 费用的委托代收</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>依据借款人与相关服务方签署的《贷款咨询与服务协议》（协议编号：<u><span
+            lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>），借款人应向</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>宁波华青商务信息咨询有限公司支付咨询费，应向网新新云联金融信息服务（浙江）有限公司支付综合服务费，宁波华青商务信息咨询有限公司和网新新云联金融信息服务（浙江）有限公司</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>委托贷款人从本协议约定的“借款人收款账户”中代为一起收取，借款人同意上述委托并在相应还款日存入足额金额。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十一条 还款</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>一、本协议项下贷款的还款方式为<span
+            lang=EN-US>:</span>分<u><span lang=EN-US>${termLen} </span></u>期归还，每期按协议第一条“借款人月偿还本息金额”还款<span
+            lang=EN-US>,</span>即按贷款人的要求，每月以固定的本金和利息金额偿还贷款本息，贷款到期日归还剩余本金和利息。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>二、每月还款日</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议项下贷款每月还款日参见本协议第一条，<b>借款人同意在每月还款日当日（不得迟于<span
+            lang=EN-US>18:00</span>）或之前将本条约定的月偿还本息数额、咨询费和综合服务费数额存入还款账户</b>。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>三、</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>对于本协议项下之贷款本金和<span
+            lang=EN-US>/</span>或相应利息，借款人应按本协议还款方式约定还款。贷款人将根据借款人的还款方式、贷款本金、还款日期、贷款期限和贷款利率等为借款人计算借款人每个还款日的应还款额（包括应还本金和<span
+            lang=EN-US>/</span>或应还利息）。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>四、本协议项下，贷款人指定收取本金、利息、违约金、委托代收的咨询费和综合服务费及其他相关费用的账户为贷款人发放贷款的账户。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人的还款时间以贷款人实际收到借款人还款的时间为准，还款金额以贷款人实际收到借款人的还款金额为准。<b>贷款人有权将借款人的还款首先用于偿还本协议约定的应由借款人承担而由贷款人垫付的各项费用以及贷款人实现债权的费用（以下统称为“费用”），包括但不限于仲裁费、律师代理费、催收费用等，剩余款项按照先支付咨询费、综合服务费，先还息后还本、利随本清的原则偿还。</b></span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>五、借款人不可撤销地同意及授权贷款人按照本协议的约定从借款人一个或几个银行账户中扣划款项用于归还本协议项下的欠款。</span></p>
+
+    <p class=MsoNormal style='text-indent:24.0pt'><span style='font-size:10.5pt;
+font-family:宋体'>六、提前还款</span></p>
+
+    <p class=MsoNormal style='text-indent:21.1pt'><b><span style='font-size:10.5pt;
+font-family:宋体'>借款人在借款期限到期前可提前偿还全部欠款，不允许部分结清。但提前还贷的，借款人在本协议项下不存在到期应还而未还的任何款项，包括但不限于贷款本金、利息、违约金、咨询费、综合服务费和其他费用。</span></b></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十二条 权利和义务</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>一、借款人的主要权利和义务</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人有权要求贷款人对借款人提供的财务资料以及生产经营方面的商业秘密予以保密，但法律法规另有规定或本协议另有约定的除外。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人为签署本协议所需的全部内部授权手续均已办理完毕并充分有效。借款人签署本协议、履行其在本协议项下的义务，均不会与其现行章程和内部规章或对借款人有约束力的任何协议、协议及其他文件相抵触。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人保证借款人在贷款网络平台信息系统中提供的任何信息均真实、合法、有效。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>4</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人应妥善保管其借款人收款账户的账户名、密码、数字证书、支付盾（如有）、与账户绑定的手机号码、手机验证码等有关的一切信息。借款人应确保不向其他任何人泄露其收款账户的密码。对于因密码泄露所致的损失，由借款人自行承担。如借款人发现有他人冒用或盗用借款人的收款账户及密码或任何其他未经合法授权之情形时，应立即以有效方式通知贷款人，要求其暂停相关行为。同时，借款人理解贷款人对借款人的请求采取行动需要合理期限，在此之前，贷款人对已执行的指令及（或）所导致的借款人的损失不承担任何责任。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>5</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人同意在借款人未清偿所有应还款项前，若申请变更、注销借款人的任何一个收款账户的，均应事先征得贷款人的同意。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>6</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人应按本协议的约定归还全部贷款本息及其他有关费用。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>7</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人应按本协议约定的用途使用贷款，未经贷款人书面同意借款人不得将贷款挪作他用。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>8</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人不得将贷款用于有价证券、期货买卖及股本权益性投资。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>9</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人不得利用本协议或本协议项下的贷款规避相关法律法规或规章的要求（包括但不限于税务方面政策法规的要求），否则与此相关的任何法律责任应由借款人自行承担，与贷款人无涉。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>10</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人变更通讯地址、电子邮件地址、电话、收款账户等事项的，应于变更后三日内书面通知贷款人。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>11</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、如借款人发生对借款人正常财务情况构成威胁或对借款人履行本协议项下的义务产生不利影响的任何其他事件，包括但不限于涉及或可能涉及经济纠纷、财务状况恶化等，均应在该等情形发生之日起五日内书面通知贷款人。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>二、贷款人的主要权利和义务</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、贷款人应按照本协议的约定履行权利义务。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、贷款人有权对贷款的使用情况和借款人的个人状况、家庭情况、财务活动等情况进行监督和检查。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、如贷款人发现借款人发生本协议约定的违约情形，贷款人有权通知收款账户银行扣划相应款项用于偿还本协议项下欠款。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十三条 信息收集、使用、共享与保护</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>一、收集借款人的信息</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人同意并授权贷款人为本协议项下贷款之目的通过以下途径获取借款人的信息：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）收集借款人留存在贷款人的关联公司处的信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）收集借款人留存在贷款人合作伙伴（包括但不限于担保公司、证券机构、银行等，下同）处的信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）向中国人民银行金融信用信息基础数据库、依法设立的征信机构、资信评估机构或有关法律、监管机构许可的类似机构（以下统称“征信机构”）查询、核实、打印、留存借款人的信息和信用报告；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>4</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）向行政机关、司法机关查询、打印、留存借款人信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>5</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）向合法留存借款人信息的自然人、法人以及其他组织收集借款人的信息。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人同意并授权贷款人收集的借款人信息包括但不限于：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）借款人及其关联方的身份信息，包括但不限于姓名<span
+            lang=EN-US>/</span>名称、证件号码、证件类型、住所地、电话号码以及其他身份信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）借款人在申请、使用贷款人提供的服务时所提供以及形成的任何数据和信息，包括但不限于借款人的信息以及借款人提供的其关联方的信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）借款人及其关联方在贷款人关联公司和合作伙伴处中留存以及形成的任何数据和信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>4</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）借款人的信用信息，包括但不限于借款人的征信记录和信用报告；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>5</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）借款人的财产信息，包括但不限于借款人的个人状况、财税信息、房产信息、车辆信息、基金、保险、股票、信托、债券等投资理财信息和负债信息等；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>6</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）借款人在行政机关、司法机关留存的任何信息，包括但不限于户籍信息、工商信息、仲裁信息、执行信息和违法犯罪信息等；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>7</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>）与借款人申请或使用的贷款人服务相关的、借款人留存在其他自然人、法人和组织的其他相关信息。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>二、使用借款人的信息</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>为了更好地为借款人提供服务，借款人同意并授权贷款人合理使用借款人的信息。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>三、借款人的信息保护</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>贷款人将根据法律法规规定对借款人的信息予以保密，但下列情形除外：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>（<span lang=EN-US>1</span>）法律、法规、规章及其他规范性文件另有规定；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>（<span lang=EN-US>2</span>）本协议另有约定。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十四条 违约及其违约处理</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>一、违约情形：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人发生下列任一情况，即构成违约：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人未按本协议规定按时足额偿还贷款本息、咨询费、综合服务费及其他应付款项。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人未按本协议约定用途使用贷款的。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人违反本协议约定的其他义务。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>二、违约救济措施</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>如借款人出现本条第一款所述之任何违约情形，或违背借款人在本协议项下其他任何义务、陈述、保证或承诺的，贷款人有权采取下列一项或多项措施，包括但不限于：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、要求借款人限期纠正违约行为。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、停止依据本协议或借款人与贷款人之间的其他协议向借款人发放任何贷款。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、以合法手段追偿贷款，由此引起的一切费用由借款人承担。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>4</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、贷款人根据法律法规规定或本协议约定有权采取的其他违约救济措施。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>5</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、若借款人在贷款人关联公司处有任何应收或留存款项，贷款人有权直接通过其关联公司自前述款项中扣划相应金额用以偿还借款人在本协议项下的欠款。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>6</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、以合法手段追偿贷款（包括但不限于委托债务催讨公司、律师事务所等其他第三方机构代为追讨，申请相关部门进行调查、向仲裁机构提起仲裁等），由此引起的一切费用（包括但不限于诉讼费、仲裁费、财产保全费、执行费、仲裁费、律师代理费、差旅费、评估费、拍卖费、催收费用等）由借款人承担。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十五条 协议的适用法律及争议解决方式</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、本协议的签订、履行、终止、解决均适用于中华人民共和国的法律。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.1pt;line-height:150%'><b><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span></b><b><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、凡因执行本协议或本协议有关的一切争议，均提请衢州仲裁委员会仲裁，并适用其网络仲裁规则（包括适用互联网金融仲裁特别规定条款），衢州仲裁委员会的裁决为终局裁决，对双方具有法律约束力。在仲裁期间，本协议不涉及争议部分的条款仍须履行。</span></b></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十六条 协议的变更、解除和权利义务的转让</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>一、协议的变更和解除</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议生效后，除本协议另有约定外，借款人不得要求单方擅自变更或解除本协议。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>二、协议权利义务的转让</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>未经贷款人书面同意，借款人不得将本协议项下的权利和义务转让给任何第三方。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>贷款人有权将其在本协议项下的权利和义务全部或部分转让给其他第三方，且贷款人的转让行为无须征得借款人的同意，但贷款人将以书面形式向借款人通知该等转让行为。</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十七条 通知</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>1</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、借款人确认，借款人在本协议中写明的手机号码、电子邮件等联系方式，均为本协议涉诉纠纷相关材料有效送达地址，按本协议约定由任何一方发给其他方的任何通知，应以短信或者电子邮件等形式发出，送至约定邮箱或者手机号码。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>2</span><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、如借款人需变更联络邮箱或者手机号码的，应当以书面通知并得到贷款人确认，否则发送至原约定邮箱或手机号码，发送即视为送达。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.1pt;line-height:150%'><b><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>3</span></b><b><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>、该送达地址适用范围包括双方非诉时各类通知、协议等文件以及就协议发生纠纷时相关文件和法律文书的送达，同时包括在争议进入仲裁程序和执行程序。因提供或者确认的送达地址不准确、送达地址变更后未及时依程序告知对方和仲裁庭、当事人或指定的接收人拒绝签收等原因，导致法律文书未能被当事人实际接收的，仍视为有效送达。</span></b><b><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人与贷款人特别约定在仲裁过程中衢州仲裁委员会可通过短信链接的方式进行仲裁文书电子送达，短信发送即视为送达，短信接收方可点击链接进行查看或登陆衢州仲裁委员会网络仲裁平台（<span
+            lang=EN-US>http://odr.qzzcwyh.com</span>）查看。</span></b></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>第十八条 其他</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议取代借款人与贷款人就有关本协议项下之贷款于先前以口头或书面形式达成的任何协议或共识。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>本协议经借款人通过云联金服贷款平台网络在线点击确认的方式订立。本协议各方委托云联金服保管所有与本协议有关的书面文件或电子信息；本协议各方确认并同意由云联金服所提供的与本协议有关的书面文件或电子信息在无明显错误的情况下应作为本协议有关事项的终局证明。</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-size:10.5pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span
+            style='font-size:10.5pt;line-height:150%;font-family:宋体'>借款人（签字）：<span
+            lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>贷款人（盖章）：</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                      style='font-size:10.5pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm'><span style='font-family:宋体'>双方于<u>宁波</u>签署</span></p>
+
+    <p class=MsoNormal style='text-indent:0cm;line-height:150%'><span lang=EN-US
+                                                                      style='font-size:10.5pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

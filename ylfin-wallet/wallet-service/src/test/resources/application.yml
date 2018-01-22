@@ -1,0 +1,28 @@
+wallet:
+  xmccb:
+    platformNo: '3000000286'
+    gateway: 'http://47.95.6.88:9010/zd-bha-neo-app/lanmaotech/gateway'
+    service: 'http://47.95.6.88:9010/zd-bha-neo-app/lanmaotech/service'
+    public-key: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsDkqSebnm7EYIDqn73qtH4ztODTL5EoeKaZ5ce2LAl4+HyHu2wedgGMiA5Wg7Kr+LCEsRS8aA3XLTPDsZ0vy2FT5nH7FaDQNSm4OxKuKMungBcnwN/UXTyioMolnaTVRfySDilvdbL59rGbSRlAY/T27h59zjKyB9w0ASDoyv2hIEEbJSSXuiEUtRP1lgxEeU0zYtlCwv++ALdRxo5ppg3elBYjJV+pakVczBJiZIsLLcr8tena07H0IhIKVYlDSJfAO7cmqH/OoXdEkiD2C+W9+YARgKkVqwTCpgbQAaPTWTeidGdVmrOGpoYzLXTL7UGSaYTZoqBuasaZdE/0DfwIDAQAB'
+    private-key: |
+                  -----BEGIN PRIVATE KEY-----
+                  MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAMLtFUPYtbgfadAe
+                  R6a70nwknduQ7jdYPyE982oky0GCkIqU3BZ2Us9ZHLJu1/GZ/32XOHpqvBoiI2iU
+                  6hD08W0RMCh8wi4b5WJUQrNEQGcXheV1acBw0T4Vv+2e3infYviSHWHzJRXD/p+i
+                  THZMmL8AfrQxaXh35BL8J00czc7jAgMBAAECgYBhOgI+Wiyhz0FnJoNUviCJ/XWj
+                  nBHGF0U93nm4euvLHEXeacuxhIlflTJEKheaEdcnHLN2FCEI4/hHZOevV43Hmwab
+                  asSMjw+fadclpgMt6b0RORjy/O5AADU4OAzce7CR6EmSs6DEnV+AjSLIFnLcGNu1
+                  QH6T32SWT+V7R2ipEQJBAOr0c/eL3xw5YqpWYlBlT5Ki/NCni3xUzY0/5IJPljDD
+                  ITmEZSHOREwBHWG15nAGgDdnYJb3HiKAKlM8mORWrusCQQDUYsO921Yy5UAMvC5E
+                  IPrNU6hOuML0XePQvC1gZkm/5GR1+ijQFxupf9TWSEkacIjjY/KsN6lgO65sAYX0
+                  IRHpAkEAhq1E4/qbExSZx8XoaOkJqaYfgILpY4VApdyf4Uo5bw4Kt2t6hNw1LdPd
+                  waqAwmoXiKqLJT3VWjVZDYlIompFrQJAIUTfWKw1En/qypPnw3BPGT7TjJFQqKrU
+                  duwjR4h+YPrL6dcn8YDNKn4FvxNPsD6UktojN2r4s0RmDDEo5JcRkQJAOpFkH2FH
+                  fZXUAUiNODw8E6wZB23+M7tNKs/T4jsZ8CAHMXwnMC2i9SCmrd+JYXyh43GCoTq6
+                  8uVwJP26yn3hew==
+                  -----END PRIVATE KEY-----
+
+ylfin:
+  http-client:
+    enabled: true
+    type: 'httpclient'

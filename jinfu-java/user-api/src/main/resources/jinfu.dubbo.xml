@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <dubbo:reference id="userService" interface="com.xinyunlian.jinfu.user.service.UserService" timeout="30000"/>
+    <dubbo:reference id="virtualTobaccoService" interface="com.xinyunlian.jinfu.virtual.service.VirtualTobaccoService"/>
+    <dubbo:reference id="storeService" interface="com.xinyunlian.jinfu.store.service.StoreService"/>
+    <dubbo:reference id="bankService" interface="com.xinyunlian.jinfu.bank.service.BankService"/>
+    <dubbo:reference id="smsService" interface="com.xinyunlian.jinfu.user.service.SmsService"/>
+    <dubbo:reference id="pictureService" interface="com.xinyunlian.jinfu.picture.service.PictureService"/>
+    <dubbo:reference id="operationLogService" interface="com.xinyunlian.jinfu.user.service.OperationLogService"/>
+    <dubbo:reference id="userExtService" interface="com.xinyunlian.jinfu.user.service.UserExtService"/>
+    <dubbo:reference id="userLinkmanService" interface="com.xinyunlian.jinfu.user.service.UserLinkmanService"/>
+    <dubbo:reference id="userLabelService" interface="com.xinyunlian.jinfu.user.service.UserLabelService"  check="false"/>
+    <dubbo:reference id="contractService"
+                     interface="com.xinyunlian.jinfu.contract.service.ContractService">
+        <dubbo:method name="saveContract" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference id="apiBaiduService"
+                     interface="com.xinyunlian.jinfu.api.service.ApiBaiduService">
+        <dubbo:method name="updatePoint" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference id="oldUserService" interface="com.xinyunlian.jinfu.olduser.service.OldUserService"/>
+
+    <dubbo:reference id="userCarService" interface="com.xinyunlian.jinfu.car.service.UserCarService"/>
+    <dubbo:reference id="userHouseService" interface="com.xinyunlian.jinfu.house.service.UserHouseService"/>
+    <dubbo:reference id="userBankAcctTrdService" interface="com.xinyunlian.jinfu.user.service.UserBankAcctTrdService"/>
+    <dubbo:reference id="userBankAcctService" interface="com.xinyunlian.jinfu.user.service.UserBankAcctService"/>
+
+    <dubbo:reference id="userCreditService" interface="com.xinyunlian.jinfu.risk.service.UserCreditService" timeout="40000"/>
+    <dubbo:reference id="bestSignService" interface="com.xinyunlian.jinfu.contract.service.BestSignService" timeout="40000"/>
+
+    <dubbo:reference id="corpBankService" interface="com.xinyunlian.jinfu.bank.service.CorpBankService"/>
+
+    <dubbo:reference id="storeJob" interface="com.xinyunlian.jinfu.store.service.StoreJob" timeout="30000"/>
+
+</beans>
