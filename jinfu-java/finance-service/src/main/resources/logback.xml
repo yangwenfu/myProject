@@ -1,0 +1,31 @@
+<configuration>
+	<contextName>standard-code</contextName>
+	<property name="appName" value="finance-service" />
+
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[${appName}] %date %level [%thread] [traceId:%X{traceId:-unknown}] [spanId:%X{spanId:-0}] [depth:%X{depth:-0}] [user: %X{userName:-unknown}] %logger{55} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="rollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>/data/logs/backend/${appName}/${appName}.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>/data/logs/${appName}/${appName}-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>50MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[${appName}] %date %level [%thread] [traceId:%X{traceId:-unknown}] [spanId:%X{spanId:-0}] [depth:%X{depth:-0}] [user: %X{userName:-unknown}] %logger{55} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.xinyunlian.jinfu" level="debug" />
+
+	<root level="info">
+		<appender-ref ref="console" />
+		<appender-ref ref="rollingFileAppender" />
+	</root>
+</configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.finaccbankcard.service.FinAccBankCardService" id="finAccBankCardService" timeout="5000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.finfunddetail.service.FinFundDetailService" id="finFundDetailService" timeout="5000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.finprofithistory.service.FinProfitHistoryService" id="finProfitHistoryService" timeout="5000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.fintxhistory.service.FinTxHistoryService" id="finTxHistoryService" timeout="5000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.finaccfundprofit.service.FinAccFundProfitService" id="finAccFundProfitService" timeout="5000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.finbank.service.FinBankService" id="finBankService" timeout="5000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.zrfundstx.service.ZrFundsHttpService" id="zrFundsHttpService" timeout="30000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.fintask.service.QuotationJobService" id="quotationJobService" timeout="30000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.fintask.service.ShareJobService" id="shareJobService" timeout="30000" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.fintask.service.QuerySuperCashTradeJobService" id="querySuperCashTradeJobService" timeout="30000" check="false"/>
+
+</beans>

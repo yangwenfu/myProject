@@ -1,0 +1,459 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <meta name=Generator content="Microsoft Word 15 (filtered)">
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face
+        {font-family:宋体;
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        @font-face
+        {font-family:"Cambria Math";
+            panose-1:2 4 5 3 5 4 6 3 2 4;}
+        @font-face
+        {font-family:Calibri;
+            panose-1:2 15 5 2 2 2 4 3 2 4;}
+        @font-face
+        {font-family:"\@宋体";
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            font-size:10.5pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            font-size:10.5pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoHeader, li.MsoHeader, div.MsoHeader
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:center;
+            line-height:12.0pt;
+            layout-grid-mode:char;
+            border:none;
+            padding:0cm;
+            font-size:9.0pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoFooter, li.MsoFooter, div.MsoFooter
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            line-height:12.0pt;
+            layout-grid-mode:char;
+            font-size:9.0pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+        {mso-style-link:"批注框文本 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            font-size:9.0pt;
+            font-family:"Calibri",sans-serif;}
+        span.Char
+        {mso-style-name:"批注框文本 Char";
+            mso-style-link:批注框文本;}
+        .MsoChpDefault
+        {font-size:10.0pt;
+            font-family:"Calibri",sans-serif;}
+        /* Page Definitions */
+        @page WordSection1
+        {size:595.3pt 841.9pt;
+            margin:72.0pt 90.0pt 72.0pt 90.0pt;
+            layout-grid:15.6pt;}
+        div.WordSection1
+        {page:WordSection1;}
+        /* List Definitions */
+        ol
+        {margin-bottom:0cm;}
+        ul
+        {margin-bottom:0cm;}
+        -->
+    </style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+    <p class=MsoNormal align=center style='margin-top:6.0pt;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:0cm;text-align:center'><b><span
+            style='font-size:14.0pt;font-family:宋体'>贷款咨询与服务协议</span></b></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>协议编号：</span><u><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></u><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>甲方（借款人）：</span><span lang=EN-US style='line-height:150%'>${signName}</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>身份证号：</span><span lang=EN-US style='line-height:150%;
+color:black'>${idCardNo}</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>手机号码：</span><span lang=EN-US style='line-height:150%;
+color:black'>${mobile}</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>电子邮件：</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>乙方：宁波华青商务信息咨询有限公司</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>地址：宁波市海曙区聚才路</span><span lang=EN-US style='line-height:150%'>99</span><span
+            style='line-height:150%;font-family:宋体'>号商务楼</span><span lang=EN-US
+                                                                     style='line-height:150%'>C</span><span style='line-height:150%;font-family:
+宋体'>幢</span><span lang=EN-US style='line-height:150%'>8301-1</span><span
+            style='line-height:150%;font-family:宋体'>室</span><span style='line-height:150%'>
+</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>丙方：网新新云联金融信息服务（浙江）有限公司</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>地址：宁波市江北区长兴路</span><span lang=EN-US style='line-height:150%'>677</span><span
+            style='line-height:150%;font-family:宋体'>号中策世纪博园</span><span lang=EN-US
+                                                                        style='line-height:150%'>18</span><span style='line-height:150%;font-family:
+宋体'>号楼</span><span lang=EN-US style='line-height:150%'>11</span><span
+            style='line-height:150%;font-family:宋体'>楼</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>鉴于：</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><span
+            lang=EN-US style='line-height:150%'>1、</span><span style='line-height:150%;
+font-family:宋体'>甲方有借款需求；</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><span
+            lang=EN-US style='line-height:150%'>2、</span><span style='line-height:150%;
+font-family:宋体'>乙方为甲方提供借款信息咨询，并在甲方申请借款过程中协助其办理各项手续；</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><span
+            lang=EN-US style='line-height:150%'>3、</span><span style='line-height:150%;
+font-family:宋体'>丙方为甲方推荐贷款人，丙方拥有贷款网络平台促成交易，并在甲方借款过程中提供个人信息收集查询、信息系统服务、还款提醒等系列服务。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span style='line-height:150%;
+font-family:宋体'>甲方同意接受乙方和丙方的服务并与乙方和丙方达成如下协议：</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第一条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>释义</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>1.1 </span><span style='line-height:150%;font-family:宋体'>咨询费：指乙方为甲方提供的借款信息咨询，并在甲方借款过程中协助其办理各项手续并成功获得借款而由甲方支付给乙方的报酬。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>1.2 </span><span style='line-height:150%;font-family:宋体'>综合服务费：指因丙方为甲方提供贷款人推荐、个人信息收集查询、信息系统服务、还款提醒等服务，并在甲方成功获得借款后而由甲方支付给丙方的报酬。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>1.3 </span><span style='line-height:150%;font-family:宋体'>《小烟贷贷款综合协议》：指甲方与丙方推荐的贷款人签署的《小烟贷贷款综合协议》（借款金额合计为人民币（大写）</span><u><span
+            style='line-height:150%'> <span lang=EN-US style='color:black'>${loanAmtDX}</span></span></u><span
+            lang=EN-US style='line-height:150%;color:black'>&nbsp;</span><u><span
+            lang=EN-US style='line-height:150%'> </span></u><span style='line-height:150%;
+font-family:宋体'>，（小写）</span><u><span lang=EN-US style='line-height:150%'>&nbsp;
+<span style='color:black'>${loanAmt}</span> &nbsp;</span></u><span
+            style='line-height:150%;font-family:宋体'>）。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>1.4 </span><span style='line-height:150%;font-family:宋体'>贷款人：指与甲方签署《小烟贷贷款综合协议》的贷款人。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>1.5 </span><span style='line-height:150%;font-family:宋体'>支付机构：指在甲方及本协议各方之间作为中介机构提供资金转移服务的银行或非金融机构。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>1.6 </span><span style='line-height:150%;font-family:宋体'>服务期：指从甲方向乙方、丙方申请贷款服务之日起至贷款到期之日或甲方提前还清贷款之日止。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>1.7 </span><span style='line-height:150%;font-family:宋体'>借款人收款账户：</span><span
+            style='font-family:宋体'>指借款人在丙方贷款网络平台自行填写或选择的收款账户，借款人知晓并同意，在线确认本协议的“借款人收款账户”的持有人为本协议项下的借款人。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第二条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>甲方的权利和义务</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>2.1 </span><span style='line-height:150%;font-family:宋体'>甲方在借款过程中，应如实向乙方和丙方提供必要的个人信息。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>2.2 </span><span style='line-height:150%;font-family:宋体'>甲方同意丙方或丙方合作机构在甲方未按时履行还款义务时，使用甲方提供的信息提醒或督促甲方履行还款义务。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>2.3 </span><span style='line-height:150%;font-family:宋体'>《小烟贷贷款综合协议》生效后，甲方应履行《小烟贷贷款综合协议》约定的还款义务；如甲方接到贷款人或其代理人发出的债权转让通知，甲方应继续向债权受让人履行《小烟贷贷款综合协议》的还款义务。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>2.4 </span><span style='line-height:150%;font-family:宋体'>若甲方需提前还款，甲方应提前通过丙方向贷款人提出还款申请，并通过丙方与贷款人协商提前还款时间，甲方应在约定的时间前将相应款项存入借款人收款账户。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>2.5 </span><span style='line-height:150%;font-family:宋体'>甲方应按照本协议的规定向乙方支付咨询费，向丙方支付综合服务费。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>2.6 </span><span style='line-height:150%;font-family:宋体'>依据《小烟贷贷款综合协议》及本协议，甲方应予偿还或支付的款项，甲方同意贷款人从借款人收款账户中划扣相应数额。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>2.7 </span><span style='line-height:150%;font-family:宋体'>甲方同意，如果甲方在履行《小烟贷贷款综合协议》的过程中存在违约情形，丙方可将甲方不良信息予以公开披露或向征信机构提供。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第三条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>乙方的权利义务</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>3.1 </span><span style='line-height:150%;font-family:宋体'>乙方须为甲方提供借款方案和全程信息咨询服务，并在甲方申请借款服务过程中协助其办理各项手续。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>3.2 </span><span style='line-height:150%;font-family:宋体'>乙方依据本协议有权向甲方收取咨询费。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>3.3 </span><span style='line-height:150%;font-family:宋体'>对于甲方在接受服务时向乙方提供的个人资料及其他各类信息，乙方应依法为甲方保密。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第四条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>丙方权利和义务</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>4.1 </span><span style='line-height:150%;font-family:宋体'>丙方应根据甲方的信用状况及乙方提出的借款方案，决定是否将甲方的借款需求向贷款人推荐，以协助达成交易。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>4.2 </span><span style='line-height:150%;font-family:宋体'>丙方依据本协议向甲方收取综合服务费。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>4.3 </span><span style='line-height:150%;font-family:宋体'>丙方应依法为甲方在接受服务时向丙方提供的个人资料及其他信息保密。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>4.4 </span><span style='line-height:150%;font-family:宋体'>丙方应保证自身业务终端网络和软硬件的安全、可靠，保证甲方在丙方贷款网络平台借款操作过程的安全。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>4.5 </span><span style='line-height:150%;font-family:宋体'>丙方应妥善保管甲方在借款交易过程中签署的法律文件。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第五条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>咨询费、综合服务费及支付方式</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>5.1 </span><span style='line-height:150%;font-family:宋体'>甲方应付咨询费、综合服务费金额如下：</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>5.1.1 </span><span style='line-height:150%;font-family:宋体'>向乙方支付咨询费共计人民币（大写）</span><u><span
+            lang=EN-US style='line-height:150%'>&nbsp; <span style='color:black'>${serviceFeeDx}</span>
+&nbsp;</span></u><u><span style='line-height:150%;font-family:宋体'>（小写）</span></u><u><span
+            style='line-height:150%'> <span lang=EN-US style='color:black'>${serviceFee}</span><span
+            lang=EN-US> &nbsp;&nbsp;</span></span></u><span style='line-height:150%;
+font-family:宋体'>；</span><span style='line-height:150%'> </span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>5.1.2 </span><span style='line-height:150%;font-family:宋体'>向丙方支付综合服务费共计人民币（大写）</span><u><span
+            style='line-height:150%'> </span></u><span style='line-height:150%'>&nbsp;<span
+            lang=EN-US style='color:black'>${serviceFeeMonthDx}</span><span lang=EN-US> <u>&nbsp;</u></span></span><u><span
+            style='line-height:150%;font-family:宋体'>（小写）</span></u><u><span
+            style='line-height:150%'> <span lang=EN-US style='color:black'>${serviceFeeMonth}</span><span
+            lang=EN-US> &nbsp;&nbsp;&nbsp;</span></span></u><span style='line-height:150%;
+font-family:宋体'>。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>5.2 </span><span style='line-height:150%;font-family:宋体'>乙方的咨询费和丙方的综合服务费均由甲方委托贷款人从借款人收款账户中划扣相应数额。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>5.2.1 </span><span style='line-height:150%;font-family:宋体'>其中乙方的咨询费为一次性收取，在贷款放款日，乙方委托贷款人在借款人收款账户中代为收取。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>5.2.2 </span><span style='line-height:150%;font-family:宋体'>其中丙方的综合服务费分</span><u><span
+            lang=EN-US style='line-height:150%'>${termLen} </span></u><span
+            style='line-height:150%;font-family:宋体'>期向甲方收取，在甲方每次还款日时，丙方委托贷款人在借款人收款账户中代为一起收取。丙方每期应收取的综合服务费按如下方式计算：贷款本金×</span><u><span
+            style='line-height:150%'> <span lang=EN-US style='color:black'>${serviceFeeMonthRt}</span><span
+            lang=EN-US> &nbsp;</span></span></u><span lang=EN-US style='line-height:150%'>%</span><span
+            style='line-height:150%;font-family:宋体'>。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第六条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>借款人收款账户的变更</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>6.1 </span><span style='line-height:150%;font-family:宋体'>甲方须确保《小烟贷贷款综合协议》指定借款人收款账户和还款账户为甲方名下合法有效的银行账户。如甲方需要变更借款人收款账户，须在还款日前至少</span><span
+            lang=EN-US style='line-height:150%'>3</span><span style='line-height:150%;
+font-family:宋体'>日向丙方提出申请，并签署相关账户变更确认书。否则甲方应承担因此产生的未及时还款的违约责任。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>6.2 </span><span style='line-height:150%;font-family:宋体'>在还款过程中，甲方有义务配合丙方为保证还款而进行的包括但不限于账户验证、账户变更、身份验证等事项，因甲方不配合而造成的未能正常还款的违约责任，概由甲方承担。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第七条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>违约责任</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>7.1 </span><span style='line-height:150%;font-family:宋体'>任何一方违反本协议的约定的，导致本协议的全部或部分不能履行，均应承担违约责任，并赔偿守约方因此遭受的损失。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>7.2 </span><span style='line-height:150%;font-family:宋体'>甲方未按协议约定支付咨询费的，应支付违约金给乙方，违约金每日按应支付咨询费的日息万分之五单独计算。甲方未按协议约定支付综合服务费的，应支付违约金给丙方，违约金按甲方根据《小烟贷贷款综合协议》应归还剩余本金的日息万分之五单独计算。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='line-height:
+150%'>7.3 </span><span style='line-height:150%;font-family:宋体'>因甲方未按《小烟贷贷款综合协议》约定及时还款而导致丙方发生的催收费用，包括但不限于调查费用、仲裁费用、律师费用、差旅费等其他费用，概由甲方承担。</span></p>
+
+    <p class=MsoNormal style='margin-left:0cm;text-indent:0cm;line-height:150%'><b><span
+            lang=EN-US style='line-height:150%'>第八条 </span></b><b><span style='line-height:
+150%;font-family:宋体'>通知</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>8.1 </span><span style='font-family:宋体'>甲方确认，甲方在本协议中写明的手机号码、电子邮件等联系方式，均为本合同涉诉纠纷相关材料有效送达地址，按本协议约定由任何一方发给其他方的任何通知，应以短信或者电子邮件等形式发出，送至约定邮箱或者手机号码。甲方与乙丙方特别约定在仲裁过程中衢州仲裁委员会可通过短信链接的方式进行仲裁文书电子送达，短信发送即视为送达，短信接收方可点击链接进行查看或登陆衢州仲裁委员会网络仲裁平台（<span
+            lang=EN-US>http://odr.qzzcwyh.com</span>）查看。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>8.2 </span><span style='font-family:宋体'>如甲方需变更联络邮箱或者手机号码的，应当以书面通知并得到丙方确认，否则发送至原约定邮箱或手机号码，发送即视为送达。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>8.3 </span><span style='font-family:宋体'>该送达地址适用范围包括本协议各方非诉时各类通知、协议等文件以及就合同发生纠纷时相关文件和法律文书的送达，同时包括在争议进入仲裁程序和执行程序。因提供或者确认的送达地址不准确、送达地址变更后未及时依程序告知对方和仲裁庭、当事人或指定的接收人拒绝签收等原因，导致法律文书未能被当事人实际接收的，仍视为有效送达。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><b><span style='font-family:宋体'>第九条
+信息系统中断或故障</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>9.1 </span><span style='font-family:宋体'>丙方的贷款网络平台信息系统因下列状况无法正常运作，使甲方无法使用各项服务或使贷款人无法履行本协议时，丙方不承担损害赔偿责任，该状况包括但不限于：</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>9.1.1 </span><span style='font-family:宋体'>在贷款网络平台或与本协议项下贷款相关的其他平台公告之系统维护期间。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>9.1.2</span><span style='font-family:宋体'>电信设备出现故障不能进行数据传输的。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>9.1.3 </span><span style='font-family:宋体'>因台风、地震、海啸、洪水、停电、战争、恐怖袭击等不可抗力之因素，造成贷款人系统障碍不能执行业务的。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>9.1.4 </span><span style='font-family:宋体'>由于黑客攻击、电信部门技术调整或故障、网站升级、银行方面的问题等原因而造成的服务中断或者延迟。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><b><span style='font-family:宋体'>第十条
+信息收集、使用、共享与保护</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>10.1</span><span style='font-family:宋体'>收集甲方的信息</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>10.1.1 </span><span style='font-family:宋体'>甲方同意并授权丙方为本协议项下贷款之目的通过以下途径获取甲方的信息：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>1</span><span style='font-family:宋体'>）收集甲方留存在丙方的关联公司处的信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>2</span><span style='font-family:宋体'>）收集甲方留存在丙方合作伙伴（包括但不限于担保公司、证券机构、银行等，下同）处的信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>3</span><span style='font-family:宋体'>）向中国人民银行金融信用信息基础数据库、依法设立的征信机构、资信评估机构或有关法律、监管机构许可的类似机构（以下统称“征信机构”）查询、核实、打印、留存甲方的信息和信用报告；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>4</span><span style='font-family:宋体'>）向行政机关、司法机关查询、打印、留存甲方信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>5</span><span style='font-family:宋体'>）向合法留存甲方信息的自然人、法人以及其他组织收集甲方的信息。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>10.1.2 </span><span style='font-family:宋体'>甲方同意并授权丙方收集的甲方信息包括但不限于：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>1</span><span style='font-family:宋体'>）甲方及其关联方的身份信息，包括但不限于姓名<span
+            lang=EN-US>/</span>名称、证件号码、证件类型、住所地、电话号码以及其他身份信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>2</span><span style='font-family:宋体'>）甲方在申请、使用丙方提供的服务时所提供以及形成的任何数据和信息，包括但不限于甲方的信息以及甲方提供的其关联方的信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>3</span><span style='font-family:宋体'>）甲方及其关联方在丙方关联公司和合作伙伴处中留存以及形成的任何数据和信息；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>4</span><span style='font-family:宋体'>）甲方的信用信息，包括但不限于甲方的征信记录和信用报告；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>5</span><span style='font-family:宋体'>）甲方的财产信息，包括但不限于甲方的个人状况、财税信息、房产信息、车辆信息、基金、保险、股票、信托、债券等投资理财信息和负债信息等；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>6</span><span style='font-family:宋体'>）甲方在行政机关、司法机关留存的任何信息，包括但不限于户籍信息、工商信息、仲裁信息、执行信息和违法犯罪信息等；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            lang=EN-US style='font-family:宋体'>7</span><span style='font-family:宋体'>）与甲方申请或使用的丙方服务相关的、甲方留存在其他自然人、法人和组织的其他相关信息。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>10.2 </span><span style='font-family:宋体'>使用甲方的信息</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>10.2.1 </span><span style='font-family:宋体'>为了更好地为甲方提供服务，甲方同意并授权丙方合理使用甲方的信息。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>10.3 </span><span style='font-family:宋体'>甲方的信息保护</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>10.3.1 </span><span style='font-family:宋体'>丙方将根据法律法规规定对甲方的信息予以保密，但下列情形除外：</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-family:宋体'>（<span lang=EN-US>1</span>）法律、法规、规章及其他规范性文件另有规定；</span></p>
+
+    <p class=MsoNormal style='text-indent:21.0pt;line-height:150%'><span
+            style='font-family:宋体'>（<span lang=EN-US>2</span>）本协议另有约定。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><b><span style='font-family:宋体'>第十一条
+协议的适用法律及争议解决方式</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>11.1 </span><span style='font-family:宋体'>本协议的签订、履行、终止、解决均适用于中华人民共和国的法律。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>11.2 </span><span style='font-family:宋体'>凡因执行本协议或本协议有关的一切争议，均提请衢州仲裁委员会仲裁，并适用其网络仲裁规则（包括适用互联网金融仲裁特别规定条款），衢州仲裁委员会的裁决为终局裁决，对协议各方具有法律约束力。在仲裁期间，本协议不涉及争议部分的条款仍须履行。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><b><span style='font-family:宋体'>第十二条
+其他</span></b></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US style='font-family:
+宋体'>12.1 </span><span style='font-family:宋体'>叁方</span><span style='font-family:
+宋体'>在丙方相关网络平台上作出的订立协议、授权、发表声明或接受条件等单方或双方法律行为对叁方具有约束力，任何一方不得以未在纸质文件上签章为由否认前述行为的效力。任何通过甲方账户及密码登录丙方相关网络平台并进行后续操作的行为，视为甲方本人的行为。</span></p>
+
+    <p class=MsoNormal style='line-height:150%'><span lang=EN-US>12.2 </span><span
+            style='font-family:宋体'>本协议经甲方通过丙方贷款平台网络在线点击确认的方式订立。本协议各方委托丙方保管所有与本协议有关的书面文件或电子信息；本协议各方确认并同意由丙方所提供的与本协议有关的书面文件或电子信息在无明显错误的情况下应作为本协议有关事项的终局证明。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>甲方（签字）：</span><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>乙方（盖章）：</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>丙方（盖章）：</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>叁方于<u>宁波</u>签署</span></p>
+
+</div>
+
+</body>
+
+</html>

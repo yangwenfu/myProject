@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.ylfin</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.xinyunlian.jinfu</groupId>
+    <artifactId>jinfu</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>jinfu-task</module>
+        <module>user-api</module>
+        <module>user-service</module>
+        <module>mgt-api</module>
+        <module>mgt-service</module>
+        <module>customer</module>
+        <module>management</module>
+        <module>dealer-customer</module>
+        <module>dealer-api</module>
+        <module>dealer-service</module>
+        <module>ins-api</module>
+        <module>ins-service</module>
+        <module>loan-api</module>
+        <module>loan-service</module>
+        <module>pay-api</module>
+        <module>pay-service</module>
+        <module>report-api</module>
+        <module>report-service</module>
+        <module>promo-api</module>
+        <module>promo-service</module>
+        <module>cloudCode-web</module>
+        <module>cloudCode-api</module>
+        <module>cloudCode-service</module>
+        <module>spider-api</module>
+        <module>spider-service</module>
+        <module>apppush-api</module>
+        <module>apppush-service</module>
+        <module>finance-api</module>
+        <module>finance-service</module>
+        <module>management-server</module>
+        <module>management-cms</module>
+        <module>uplus-api</module>
+        <module>uplus-service</module>
+        <module>uplus-web</module>
+        <module>memberCenter-service</module>
+        <module>point-service</module>
+        <module>point-api</module>
+    </modules>
+
+
+</project>

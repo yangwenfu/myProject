@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    	http://www.springframework.org/schema/aop 
+		http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="realm"/>
+        <property name="subjectDAO.sessionStorageEvaluator.sessionStorageEnabled"
+                  value="false"/>
+        <property name="subjectFactory" ref="subjectFactory"/>
+        <property name="sessionManager" ref="sessionManager"/>
+    </bean>
+
+    <!-- Subject工厂 -->
+    <bean id="subjectFactory"
+          class="com.xinyunlian.jinfu.common.security.authc.StatelessDefaultSubjectFactory"/>
+    <!-- 会话管理器 -->
+    <bean id="sessionManager" class="org.apache.shiro.session.mgt.DefaultSessionManager">
+        <property name="sessionValidationSchedulerEnabled" value="false"/>
+    </bean>
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/web/auth/login"/>
+        <property name="filterChainDefinitions">
+            <value>
+                /web/v2/api-docs/**=anon
+                /web/open-api/**=anon
+                /web/** = authc
+            </value>
+        </property>
+    </bean>
+
+    <bean id="authc" class="com.xinyunlian.jinfu.common.security.authc.StatelessAuthcFilter"/>
+
+    <!-- <bean id="realm" class="org.apache.shiro.realm.text.PropertiesRealm" /> -->
+    <bean id="realm" class="com.xinyunlian.jinfu.common.security.authc.StatelessRealm">
+        <property name="credentialsMatcher" ref="credentialsMatcher"/>
+        <property name="tokenExpire" value="1800"/>
+    </bean>
+
+    <bean id="credentialsMatcher" class="com.xinyunlian.jinfu.common.security.authc.StatelessCredentialsMatcher"/>
+
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor"
+          depends-on="lifecycleBeanPostProcessor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
+    <!-- captcha  -->
+    <bean id="kaptchaSupport" class="com.xinyunlian.jinfu.common.security.KaptchaSupport">
+        <constructor-arg type="java.util.Properties">
+            <props>
+                <prop key="kaptcha.noise.impl">com.google.code.kaptcha.impl.NoNoise</prop>
+            </props>
+        </constructor-arg>
+    </bean>
+
+</beans>

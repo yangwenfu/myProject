@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.qrcode.service.ProdCodeService" id="prodCodeService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.qrcode.service.ProdInfService" id="prodInfService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.qrcode.service.ScanCodeRecordService" id="scanCodeRecordService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.qrcode.service.ScanUserAgentService" id="scanUserAgentService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.system.service.ThirdConfigService" id="thirdConfigService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.order.service.ThirdOrderInfService" id="thirdOrderInfService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.order.service.ThirdOrderProdService" id="thirdOrderProdService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.store.service.FranchiseService" id="franchiseService"/>
+
+</beans>

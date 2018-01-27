@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+    <bean id="oAuthIssuerImpl" class="org.apache.oltu.oauth2.as.issuer.OAuthIssuerImpl">
+        <constructor-arg name="vg" ref="md5Generator"></constructor-arg>
+    </bean>
+    <bean id="md5Generator" class="org.apache.oltu.oauth2.as.issuer.MD5Generator"></bean>
+
+    <bean id="iou" class="com.xinyunlian.jinfu.oauth.dto.OauthClientInfo">
+        <property name="clientName" value="iou"></property>
+        <property name="clientId" value="${iou_oauth_client_id}"></property>
+        <property name="secretKey" value="${iou_oauth_secret_key}"></property>
+        <property name="authorizeUrl" value="${iou_oauth_authorize_url}"></property>
+    </bean>
+
+    <bean id="loan" class="com.xinyunlian.jinfu.oauth.dto.OauthClientInfo">
+        <property name="clientName" value="loan"></property>
+        <property name="clientId" value="${loan_oauth_client_id}"></property>
+        <property name="secretKey" value="${loan_oauth_secret_key}"></property>
+        <property name="authorizeUrl" value="${loan_oauth_authorize_url}"></property>
+    </bean>
+
+
+    <bean id="credit" class="com.xinyunlian.jinfu.oauth.dto.OauthClientInfo">
+        <property name="clientName" value="credit"></property>
+        <property name="clientId" value="${credit_oauth_client_id}"></property>
+        <property name="secretKey" value="${credit_oauth_secret_key}"></property>
+        <property name="authorizeUrl" value="${credit_oauth_authorize_url}"></property>
+    </bean>
+
+
+    <bean id="oauthServerService" class="com.xinyunlian.jinfu.oauth.service.OauthServerService">
+        <property name="clients">
+            <map>
+                <entry key="#{iou.clientId}" value-ref="iou"></entry>
+                <entry key="#{credit.clientId}" value-ref="credit"></entry>
+                <entry key="#{loan.clientId}" value-ref="loan"></entry>
+            </map>
+        </property>
+
+    </bean>
+
+</beans>

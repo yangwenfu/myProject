@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <bean id="seqResetServiceImpl" class="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetServiceImpl" />
+    <dubbo:registry address="${dubbo.registry.address}"></dubbo:registry>
+    <dubbo:service interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService" ref="seqResetServiceImpl"  group="user-service-app"/>
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.xinyunlian.jinfu.common.security.authc.SecurityService" ref="securityServiceImpl"  group="customer"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.UserService" ref="userServiceImpl">
+        <dubbo:method name="certify" timeout="60000" retries="0"/><!-- 远程调用不需要重试，方法调用超时为30秒 -->
+        <dubbo:method name="getUserPage" timeout="30000"/>
+        <dubbo:method name="certifyWithCard" timeout="60000" retries="0"/>
+        <dubbo:method name="saveIDCard" timeout="30000" retries="0"/>
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.store.service.StoreService" ref="storeServiceImpl">
+        <dubbo:method name="getStorePointPage" timeout="5000" retries="0"/>
+        <dubbo:method name="saveStore" timeout="5000" retries="0"/>
+        <dubbo:method name="saveSupportAll" timeout="5000" retries="0"/>
+    </dubbo:service>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.store.service.StoreJob" ref="storeServiceImpl" />
+
+    <dubbo:service interface="com.xinyunlian.jinfu.virtual.service.VirtualTobaccoService" ref="virtualTobaccoServiceImpl">
+        <dubbo:method name="take" timeout="60000" retries="0"/>
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.bank.service.BankService" ref="bankServiceImpl">
+        <dubbo:method name="saveBankCard" timeout="5000" retries="0"/>
+    </dubbo:service>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.SmsService" ref="smsServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.picture.service.PictureService" ref="pictureServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.OperationLogService" ref="operationLogServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.UserExtService" ref="userExtServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.UserLinkmanService" ref="userLinkmanServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.UserLabelService" ref="userLabelServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.contract.service.ContractService" ref="contractServiceImpl" timeout="40000"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.olduser.service.OldUserService" ref="oldUserServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.api.service.ApiBaiduService" ref="apiBaiduServiceImpl" timeout="30000"/>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.car.service.UserCarService" ref="userCarServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.house.service.UserHouseService" ref="userHouseServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.UserBankAcctService" ref="userBankAcctServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.user.service.UserBankAcctTrdService" ref="userBankAcctTrdServiceImpl"/>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.risk.service.UserCreditService" ref="userCreditServiceImpl" timeout="40000"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.contract.service.BestSignService" ref="bestSignServiceImpl" timeout="40000"/>
+
+    <dubbo:service interface="com.xinyunlian.jinfu.bank.service.CorpBankService" ref="corpBankServiceImpl" />
+</beans>

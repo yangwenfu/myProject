@@ -1,0 +1,23 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- tomcat jdbc pool -->
+	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource" destroy-method="close">
+		<property name="driverClassName"><value>${db.driverClassName}</value></property>
+		<property name="url"><value>${db.url}</value></property>
+		<property name="username" ><value>${db.user}</value></property>
+		<property name="password"><value>${db.pwd}</value></property>
+		<property name="maxActive"><value>${db.maxActive}</value></property>
+		<property name="initialSize"><value>${db.initialSize}</value></property>
+		<property name="validationQuery"><value>SELECT 1</value></property>
+		<property name="testOnBorrow"><value>true</value></property>
+		<property name="testOnReturn"><value>true</value></property>
+		<property name="testWhileIdle"><value>true</value></property>
+	</bean>
+
+	<!-- NOTE: for JPA -->
+	<import resource="classpath:jinfu-db-jpa.spring.xml"/>
+
+</beans>

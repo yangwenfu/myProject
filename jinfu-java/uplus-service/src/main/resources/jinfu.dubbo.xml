@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <bean id="seqResetServiceImpl" class="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetServiceImpl" />
+    <dubbo:service interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService" ref="seqResetServiceImpl"  group="uplus-service-app"/>
+
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.xinyunlian.jinfu.qrcode.service.ProdCodeService" ref="prodCodeServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.qrcode.service.ProdInfService" ref="prodInfServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.qrcode.service.ScanCodeRecordService" ref="scanCodeRecordServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.qrcode.service.ScanUserAgentService" ref="scanUserAgentServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.system.service.ThirdConfigService" ref="thirdConfigServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.order.service.ThirdOrderProdService" ref="thirdOrderProdServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.order.service.ThirdOrderInfService" ref="thirdOrderInfServiceImpl"/>
+    <dubbo:service interface="com.xinyunlian.jinfu.store.service.FranchiseService" ref="franchiseServiceImpl"/>
+
+</beans>

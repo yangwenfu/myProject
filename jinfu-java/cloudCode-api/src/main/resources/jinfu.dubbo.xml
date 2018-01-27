@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.order.service.CmccOrderService" id="cmccOrderService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.order.service.CmccTradeService" id="cmccTradeService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.clerk.service.ClerkAuthService" id="clerkAuthService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.clerk.service.ClerkApplyService" id="clerkApplyService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.clerk.service.ClerkService" id="clerkService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.wechat.service.ApiWeChatService" id="apiWeChatService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YMProdService" id="yMProdService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YMRouterAgentService" id="yMRouterAgentService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YMUserInfoService" id="yMUserInfoService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YMMemberService" id="yMMemberService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.trade.service.YmTradeService" id="ymTradeService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.trade.service.YmBizService" id="ymBizService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.api.service.ApiWinManagerService" id="apiWinManagerService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.alipay.service.ApiAliPayService" id="apiAliPayService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.api.service.ApiNotifyService" id="apiNotifyService">
+        <dubbo:method name="tradeCallback" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YmThirdConfigService" id="ymThirdConfigService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.bscontract.service.YmMemberSignService" id="ymMemberSignService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YmThirdUserService" id="ymThirdUserService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.api.service.ApiThirdService" id="apiThirdService">
+        <dubbo:method name="thirdNotify" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YmPayChannelService" id="ymPayChannelService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.yunma.service.YmDepotService" id="ymDepotService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.payCode.service.PayCodeService" id="payCodeService"/>
+
+</beans>

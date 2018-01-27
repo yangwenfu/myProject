@@ -1,0 +1,317 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <meta name=Generator content="Microsoft Word 15 (filtered)">
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face
+        {font-family:宋体;
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        @font-face
+        {font-family:黑体;
+            panose-1:2 1 6 9 6 1 1 1 1 1;}
+        @font-face
+        {font-family:"Cambria Math";
+            panose-1:2 4 5 3 5 4 6 3 2 4;}
+        @font-face
+        {font-family:Calibri;
+            panose-1:2 15 5 2 2 2 4 3 2 4;}
+        @font-face
+        {font-family:"\@宋体";
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        @font-face
+        {font-family:微软雅黑;
+            panose-1:2 11 5 3 2 2 4 2 2 4;}
+        @font-face
+        {font-family:"Heiti SC Light";}
+        @font-face
+        {font-family:仿宋_GB2312;}
+        @font-face
+        {font-family:"\@微软雅黑";
+            panose-1:2 11 5 3 2 2 4 2 2 4;}
+        @font-face
+        {font-family:"\@黑体";
+            panose-1:2 1 6 9 6 1 1 1 1 1;}
+        @font-face
+        {font-family:"\@仿宋_GB2312";}
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:10.0pt;
+            line-height:20.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;}
+        h1
+        {mso-style-link:"标题 1 Char";
+            margin-top:24.0pt;
+            margin-right:0cm;
+            margin-bottom:18.0pt;
+            margin-left:0cm;
+            text-align:center;
+            text-indent:0cm;
+            page-break-after:avoid;
+            font-size:16.0pt;
+            font-family:"Times New Roman",serif;
+            font-weight:normal;}
+        h2
+        {mso-style-link:"标题 2 Char";
+            margin-top:24.0pt;
+            margin-right:0cm;
+            margin-bottom:6.0pt;
+            margin-left:0cm;
+            text-indent:0cm;
+            line-height:20.0pt;
+            page-break-after:avoid;
+            font-size:14.0pt;
+            font-family:"Times New Roman",serif;
+            font-weight:normal;}
+        h3
+        {mso-style-link:"标题 3 Char";
+            margin-top:12.0pt;
+            margin-right:0cm;
+            margin-bottom:6.0pt;
+            margin-left:0cm;
+            text-indent:0cm;
+            line-height:20.0pt;
+            page-break-after:avoid;
+            font-size:13.0pt;
+            font-family:"Times New Roman",serif;
+            font-weight:normal;}
+        h4
+        {mso-style-link:"标题 4 Char";
+            margin-top:12.0pt;
+            margin-right:0cm;
+            margin-bottom:6.0pt;
+            margin-left:0cm;
+            text-indent:0cm;
+            line-height:20.0pt;
+            page-break-after:avoid;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;
+            font-weight:normal;}
+        p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+        {mso-style-link:"批注文字 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-indent:10.0pt;
+            line-height:20.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;}
+        p.MsoHeader, li.MsoHeader, div.MsoHeader
+        {mso-style-link:"页眉 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:10.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;}
+        p.MsoFooter, li.MsoFooter, div.MsoFooter
+        {mso-style-link:"页脚 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:10.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;}
+        p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+        {mso-style-link:"批注主题 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-indent:10.0pt;
+            line-height:20.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;
+            font-weight:bold;}
+        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+        {mso-style-link:"批注框文本 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:10.0pt;
+            font-size:9.0pt;
+            font-family:"Heiti SC Light";}
+        span.1Char
+              {mso-style-name:"标题 1 Char";
+                  mso-style-link:"标题 1";
+                  font-family:"Times New Roman",serif;}
+        span.2Char
+              {mso-style-name:"标题 2 Char";
+                  mso-style-link:"标题 2";
+                  font-family:"Times New Roman",serif;}
+        span.3Char
+              {mso-style-name:"标题 3 Char";
+                  mso-style-link:"标题 3";
+                  font-family:"Times New Roman",serif;}
+        span.4Char
+              {mso-style-name:"标题 4 Char";
+                  mso-style-link:"标题 4";
+                  font-family:"Times New Roman",serif;}
+        p.1, li.1, div.1
+        {mso-style-name:列出段落1;
+            margin-top:0cm;
+            margin-right:0cm;
+            margin-bottom:0cm;
+            margin-left:36.0pt;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:10.0pt;
+            line-height:20.0pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman",serif;}
+        p.1CxSpFirst, li.1CxSpFirst, div.1CxSpFirst
+                                          {mso-style-name:列出段落1CxSpFirst;
+                                              margin-top:0cm;
+                                              margin-right:0cm;
+                                              margin-bottom:0cm;
+                                              margin-left:36.0pt;
+                                              margin-bottom:.0001pt;
+                                              text-align:justify;
+                                              text-justify:inter-ideograph;
+                                              text-indent:10.0pt;
+                                              line-height:20.0pt;
+                                              font-size:12.0pt;
+                                              font-family:"Times New Roman",serif;}
+        p.1CxSpMiddle, li.1CxSpMiddle, div.1CxSpMiddle
+                                            {mso-style-name:列出段落1CxSpMiddle;
+                                                margin-top:0cm;
+                                                margin-right:0cm;
+                                                margin-bottom:0cm;
+                                                margin-left:36.0pt;
+                                                margin-bottom:.0001pt;
+                                                text-align:justify;
+                                                text-justify:inter-ideograph;
+                                                text-indent:10.0pt;
+                                                line-height:20.0pt;
+                                                font-size:12.0pt;
+                                                font-family:"Times New Roman",serif;}
+        p.1CxSpLast, li.1CxSpLast, div.1CxSpLast
+                                        {mso-style-name:列出段落1CxSpLast;
+                                            margin-top:0cm;
+                                            margin-right:0cm;
+                                            margin-bottom:0cm;
+                                            margin-left:36.0pt;
+                                            margin-bottom:.0001pt;
+                                            text-align:justify;
+                                            text-justify:inter-ideograph;
+                                            text-indent:10.0pt;
+                                            line-height:20.0pt;
+                                            font-size:12.0pt;
+                                            font-family:"Times New Roman",serif;}
+        span.Char
+        {mso-style-name:"批注框文本 Char";
+            mso-style-link:批注框文本;
+            font-family:"Heiti SC Light";}
+        span.Char0
+        {mso-style-name:"页眉 Char";
+            mso-style-link:页眉;
+            font-family:"Times New Roman",serif;}
+        span.Char1
+        {mso-style-name:"页脚 Char";
+            mso-style-link:页脚;
+            font-family:"Times New Roman",serif;}
+        span.Char2
+        {mso-style-name:"批注文字 Char";
+            mso-style-link:批注文字;
+            font-family:"Times New Roman",serif;}
+        span.Char3
+        {mso-style-name:"批注主题 Char";
+            mso-style-link:批注主题;
+            font-family:"Times New Roman",serif;
+            font-weight:bold;}
+        p.10, li.10, div.10
+        {mso-style-name:列出段落1;
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            text-indent:21.0pt;
+            font-size:10.5pt;
+            font-family:"Calibri",sans-serif;}
+        .MsoChpDefault
+        {font-size:10.0pt;
+            font-family:等线;}
+        /* Page Definitions */
+        @page WordSection1
+        {size:595.3pt 841.9pt;
+            margin:72.0pt 90.0pt 72.0pt 90.0pt;
+            layout-grid:16.3pt;}
+        div.WordSection1
+        {page:WordSection1;}
+        /* List Definitions */
+        ol
+        {margin-bottom:0cm;}
+        ul
+        {margin-bottom:0cm;}
+        -->
+    </style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:16.3pt'>
+
+    <p class=MsoNormal align=center style='text-align:center;text-indent:0cm'><b><span
+            style='font-size:14.0pt;font-family:"微软雅黑",sans-serif'>委托扣款协议书</span></b></p>
+
+    <p class=MsoNormal style='text-indent:24.0pt;line-height:18.0pt'><span
+            lang=EN-US style='font-family:仿宋_GB2312'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:24.0pt;line-height:18.0pt'><span
+            style='font-family:宋体'>客户：简称“您”或“用户”；</span></p>
+
+    <p class=MsoNormal style='text-indent:24.0pt;line-height:18.0pt'><span
+            style='font-family:宋体'>宁波云联小额贷款有限公司：简称“本公司”；</span></p>
+
+    <p class=MsoNormal style='text-indent:24.0pt;line-height:18.0pt'><span
+            lang=EN-US style='font-family:宋体'>&nbsp;</span></p>
+
+    <p class=MsoNormal style='text-indent:24.0pt;line-height:18.0pt'><span
+            style='font-family:宋体'>您签署或者通过互联网点击确认或以其他方式选择接受本协议，即表示您同意接受本协议的全部约定内容，确认承担由此产生的一切责任。</span></p>
+
+    <p class=MsoNormal style='text-indent:24.0pt;line-height:18.0pt'><span
+            lang=EN-US style='font-family:宋体'>&nbsp;</span></p>
+
+    <p class=10 style='text-indent:24.0pt;line-height:18.0pt'><span
+            style='font-size:12.0pt;font-family:宋体'>一、您同意并授权本公司根据与您签署的《云随贷业务综合协议》、《云速贷业务贷款协议》、《小烟贷贷款综合协议》、《贷款咨询与服务协议》，通过第三方支付清算机构以及开户行，从您提供的账户中扣款。您承诺签署委托扣款视同您自愿作出，不得向第三方支付清算机构以及开户行提出异议。<span
+            lang=EN-US>&nbsp;&nbsp; </span></span></p>
+
+    <p class=10 style='text-indent:24.0pt;line-height:18.0pt'><span
+            style='font-size:12.0pt;font-family:宋体'>二、您保证提供给本公司的借款人收款账户信息为您所有的真实、完整、准确、合法、有效的账户信息，并同意本公司将您所提供的收款人账户信息发送至开户行进行核验。</span></p>
+
+    <p class=10 style='text-indent:0cm;line-height:18.0pt'><span lang=EN-US
+                                                                 style='font-size:12.0pt;font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span
+            style='font-size:12.0pt;font-family:宋体'>三、因您提供他人账户资料或虚假信息、您提供的账户余额不足或被挂失、冻结、销户等原因而引起的一切法律责任，由您自行承担，与本公司无关。</span></p>
+
+    <p class=10 style='text-indent:0cm;line-height:18.0pt'><span lang=EN-US
+                                                                 style='font-size:12.0pt;font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span
+            style='font-size:12.0pt;font-family:宋体'>四、因第三方支付清算机构或开户行等原因导致扣款错误、提前或延误，给您造成损失的，由过错方承担责任，本公司将协助您向其追究相应责任。</span></p>
+
+    <p class=10 style='text-indent:0cm;line-height:18.0pt'><span lang=EN-US
+                                                                 style='font-size:12.0pt;font-family:宋体'>&nbsp;</span></p>
+
+    <p class=10 style='text-indent:0cm;line-height:18.0pt'><span lang=EN-US
+                                                                 style='font-size:12.0pt;font-family:宋体'>&nbsp;</span></p>
+
+    <p class=1 align=right style='text-align:right;text-indent:0cm;line-height:
+18.0pt;word-break:break-all'><span style='font-size:12.0pt;font-family:宋体'>委托人：<span
+            lang=EN-US>${signName}&nbsp;&nbsp; </span></span></p>
+
+    <p class=1 align=right style='text-align:right;text-indent:0cm;line-height:
+18.0pt;word-break:break-all'><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体'>${signDate}&nbsp;&nbsp; </span></p>
+
+</div>
+
+</body>
+
+</html>

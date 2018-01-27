@@ -1,0 +1,354 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <meta name=Generator content="Microsoft Word 15 (filtered)">
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face
+        {font-family:宋体;
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        @font-face
+        {font-family:"Cambria Math";
+            panose-1:2 4 5 3 5 4 6 3 2 4;}
+        @font-face
+        {font-family:Calibri;
+            panose-1:2 15 5 2 2 2 4 3 2 4;}
+        @font-face
+        {font-family:"\@宋体";
+            panose-1:2 1 6 0 3 1 1 1 1 1;}
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal
+        {margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            font-size:10.5pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoHeader, li.MsoHeader, div.MsoHeader
+        {mso-style-link:"页眉 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            text-align:center;
+            layout-grid-mode:char;
+            border:none;
+            padding:0cm;
+            font-size:9.0pt;
+            font-family:"Calibri",sans-serif;}
+        p.MsoFooter, li.MsoFooter, div.MsoFooter
+        {mso-style-link:"页脚 Char";
+            margin:0cm;
+            margin-bottom:.0001pt;
+            layout-grid-mode:char;
+            font-size:9.0pt;
+            font-family:"Calibri",sans-serif;}
+        span.Char
+        {mso-style-name:"页眉 Char";
+            mso-style-link:页眉;}
+        span.Char0
+        {mso-style-name:"页脚 Char";
+            mso-style-link:页脚;}
+        .MsoChpDefault
+        {font-size:10.0pt;}
+        /* Page Definitions */
+        @page WordSection1
+        {size:595.3pt 841.9pt;
+            margin:72.0pt 90.0pt 72.0pt 90.0pt;
+            layout-grid:15.6pt;}
+        div.WordSection1
+        {page:WordSection1;}
+        -->
+    </style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+    <p class=MsoNormal align=center style='text-align:center'><b><span
+            style='font-size:14.0pt;font-family:宋体'>云随贷业务综合协议</span></b></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>甲方：宁波云联小额贷款有限公司</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>地址：宁波市江北区长兴路</span><span
+            lang=EN-US>677</span><span style='font-family:宋体'>号、</span><span lang=EN-US>685</span><span
+            style='font-family:宋体'>号、</span><span lang=EN-US>687</span><span
+            style='font-family:宋体'>号</span><span lang=EN-US>3</span><span style='font-family:
+宋体'>幢</span><span lang=EN-US>6-1-21</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>乙方：</span><span lang=EN-US
+                                                                    style='color:black'>${signName}</span></span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>身份证号：</span><span lang=EN-US
+                                                                      style='color:black'>${idCardNo}</span></span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>注册号：</span><span lang=EN-US
+                                                                     style='color:black'>${bizLicenceNo}</span></span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>店名：</span><span lang=EN-US
+                                                                    style='color:black'>${storeName}</span></span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>烟草许可证号：</span><span lang=EN-US
+                                                                        style='color:black'>${tobaccoCertificateNo}</span></span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>地址：</span><span lang=EN-US
+                                                                    style='color:black'>${address}</span></span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>联系电话：</span><span lang=EN-US
+                                                                      style='color:black'>${phone}</span></span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>电子邮箱：</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>甲方系合法设立的具备雄厚实力的金融服务公司，乙方因经营需要，有意向甲方申请授信，并根据实际情况提出具体借款请求，现经双方友好协商，达成如下协议，特此签订，以资共守。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第一条</span> <span
+            style='font-family:宋体'>授信申请</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>1.1&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>乙方向甲方申请授信，具体额度由甲方根据本协议第二条的约定决定。本协议所述额度不构成甲方确保乙方使用额度的义务，仅是合作意向。甲方有权根据国家法律法规规定、乙方资信情况、甲方授信政策调整或停止乙方额度。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>1.2&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>乙方同意按照甲方的要求提供真实完整、准确有效的资料及信息，包括但不限于个人身份信息、个人财产信息。前述信息资料不因甲方核准授信与否而退还。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>1.3&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>乙方承诺，乙方提供的相关信息（包括但不限于通讯地址、手机号码、电话号码、身份证号码、烟草许可证号）如果变更或失效，应即时通知甲方。乙方怠于通知的，应承担相应的不利后果。乙方确认在本协议中提供的通讯地址为有效的送达地址，甲方、行政机关和司法机关按照乙方在本协议中提供的通讯地址向其寄送文件的（包括但不限于法律文书、催收通知），即使文件被拒收、退回、代为签收均应视为有效送达。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>1.4&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>乙方同意并授权甲方向中国人民银行金融信用信息基础数据库、信贷征信业监督管理部门批准建立的征信信息数据库及其他渠道查询、处理、留存和使用其财产、个人信息和资信状况相关的资料，以确定乙方的资信状况。甲方查询获得的信用报告可用于信贷审批、担保资格审查、贷后管理、异议核查等合法的用途范围内。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>1.5&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>乙方同意并授权甲方可向中国人民银行金融信用信息基础数据库、信贷征信业监督管理部门批准建立的征信信息数据库及其他渠道进行不良信息的报送。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>1.6&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>乙方上述授权视同同意甲方通过合法渠道获取并报送乙方个人金融信息，在授信到期后或贷款结清后，甲方仍有权保留合法获取的乙方信息，但甲方必须审慎合法使用并保密上述乙方个人信息。获取的信息涉及乙方隐私，乙方可能承担因自身原因或其他原因造成信贷记录不良而导致的不良影响，乙方认可授权行为并知晓授权行为可能产生的后果。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>1.7&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>为提供更优质的产品和服务，乙方同意甲方使用其个人金融信息提供乙方关联企业的其他产品及服务，同意提供乙方个人金融信息给甲方的业务合作伙伴及委托处理事务之第三方。业务合作伙伴及委托处理事务之第三方仍需对乙方的相关信息进行保密。乙方不同意向甲方关联企业或与甲方签约的业务合作伙伴及委托处理事务之第三方提供个人金融信息的，可随时以书面形式通知甲方，甲方在收到通知后，在合理的时限内，将停止向乙方提供相应的产品及服务。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第二条</span> <span
+            style='font-family:宋体'>批核、信用额度、期限及贷款用途</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>2.1 </span><span style='font-family:宋体'>甲方有权根据乙方的资信状况，决定是否予以授信、授信额度及范围。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>2.2 </span><span style='font-family:宋体'>乙方同意甲方可以根据交易与还款情况、资信状况或风险信息等自主调整其授信额度。甲方调整授信额度的，可通过电话、短信、微信、对账单、网站提示等方式之一通知乙方。前述授信额度的调整不影响乙方已发生的具体业务。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>2.3 </span><span style='font-family:宋体'>乙方在甲方处获得最高额贷款额度为</span><u>
+    </u><span lang=EN-US style='color:black'>${loanAmtDx}</span></span><u><span
+            lang=EN-US>&nbsp; </span></u><span style='font-family:宋体'>万元。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>2.4 </span><span style='font-family:宋体'>乙方前述额度有效期限为</span><u>
+    </u><span lang=EN-US style='color:black'>${termLenMonth}</span></span><u><span
+            lang=EN-US> </span></u><span style='font-family:宋体'>个月。额度有效期限为</span><u> </u><span
+            lang=EN-US style='color:black'>${startDate}</span></span><u><span lang=EN-US> </span></u><span
+            style='font-family:宋体'>至</span><u> </u><span lang=EN-US style='color:black'>${endDate}</span></span><u><span
+            lang=EN-US>&nbsp; </span></u><span style='font-family:宋体'>。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>2.5 </span><span style='font-family:宋体'>贷款利率：</span><u><span
+            lang=EN-US>&nbsp;&nbsp; </span></u><span lang=EN-US style='color:black'>${loanRT}</span></span><u><span
+            lang=EN-US>&nbsp;&nbsp;&nbsp; </span></u><span style='font-family:宋体'>。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>2.6 </span><span style='font-family:宋体'>乙方承诺：本协议项下的贷款专用于</span><u><span
+            style='font-family:宋体'> 订购烟草和非烟商品 </span></u><span style='font-family:宋体'>之用。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第三条</span> <span
+            style='font-family:宋体'>关联银行卡</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>3.1 </span><span style='font-family:宋体'>乙方同意在甲方云联金服系统开立虚拟账户。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>3.2 </span><span style='font-family:宋体'>乙方同意为前述虚拟账户绑定其本人名义开户的实体银行卡账户，该银行卡账户可用于甲方发放具体业务下的贷款、甲方扣取乙方所借款项的本金和利息等。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第四条</span> <span
+            style='font-family:宋体'>具体业务的发生</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>4.1 </span><span style='font-family:宋体'>在额度有效期限内，乙方可一次或分次提出借款申请，新申请的借款金额不得大于未使用授信额度。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>前款所称未使用授信额度，是指在任何时点下，甲方批核的授信额度减去乙方未清偿借款本息的差额。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>4.2 </span><span style='font-family:宋体'>乙方提出借款申请的，应使用虚拟账户登录云联金服系统进行操作，并仔细核对系统反馈的借款申请书的详情。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>4.3 </span><span style='font-family:宋体'>借款申请书中至少载明以下内容：借款币种、用途、数额、利率、期限和还款方式。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>4.4 </span><span style='font-family:宋体'>乙方确认的借款申请书中载明的事项将作为双方借款协议关系的有效凭据。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>4.5 </span><span style='font-family:宋体'>乙方同意，即使乙方尚有未使用的授信额度，但甲方并不负有必然提供借款的义务。甲方仅在其审核通过乙方的借款申请书后后才负有履行提供借款的义务。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>4.6 </span><span style='font-family:宋体'>本协议项下的具体业务仅限乙方发起，乙方承诺：不以任何方式将该项权利在实质上转让给第三方，不以转贷为业，不将借款用于约定以外的用途。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第五条</span> <span
+            style='font-family:宋体'>账户保护</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>5.1 </span><span style='font-family:宋体'>乙方应妥善保管虚拟账户信息、密码、交易凭证、身份证件、预留验证设备和个人信息，防止前述信息等丢失、被盗、泄露或被冒用。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>5.2 </span><span style='font-family:宋体'>任何通过密码完成的交易或发出的指令，并经有效验证，均由乙方自行承担由此产生的后果和损失。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>5.3 </span><span style='font-family:宋体'>乙方应对其保管不善、将虚拟账户授权他人使用或其他不谨慎行为而发生虚拟账户被盗、被冒用等所导致的损失承担责任。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>5.4 </span><span style='font-family:宋体'>虚拟账户有被盗、被冒用等嫌疑的，乙方可通过甲方客服人员办理账户冻结手续。甲方发现有此嫌疑的，可及时向乙方进行反馈。如果情况表明有此需要，甲方可径行冻结乙方虚拟账户，但需在合理期限内通知乙方（包括但不限于电话、短信、邮件、站内消息等方式）。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>5.5 </span><span style='font-family:宋体'>如因乙方原因造成账户被冻结的，则甲方可要求乙方提前清偿全部欠款；因此给甲方造成损失的，乙方应承担赔偿责任。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>5.6 </span><span style='font-family:宋体'>乙方应当积极配合甲方就账户异常开展的调查行为，配合范围包括但不限于以下内容：详细描述账户异常的经过；协助甲方向行政或司法机关调取相应资料以及了解案件进度等。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第六条</span> <span
+            style='font-family:宋体'>对账单</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>6.1 </span><span style='font-family:宋体'>甲方将通过电子邮件或短信或微信等方式向乙方每月提供对账单，但乙方不得以未收到对账单为由拒绝清偿本协议项下的任何债务。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>6.2 </span><span style='font-family:宋体'>在上一份月结账单后，乙方虚拟账户未发生任何具体业务的，且无任何未偿还余额的，甲方可不提供对账单。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>6.3 </span><span style='font-family:宋体'>乙方应及时、认真核实对账单内容，对所列交易有异议的，应在交易发生的当期账单日起十日内提出，逾期视为乙方已认可全部交易。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第七条</span> <span
+            style='font-family:宋体'>还款</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.1 </span><span style='font-family:宋体'>乙方应及时、足额偿还本协议项下的全部欠款。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.2 </span><span style='font-family:宋体'>乙方还款方式为：</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·还款日当日</span><span lang=EN-US>23</span><span
+            style='font-family:宋体'>：</span><span lang=EN-US>00</span><span
+            style='font-family:宋体'>点前，在关联银行卡或虚拟账户中缴存足额资金，由甲方委托第三方自动划扣；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·经甲方授权人员批准，以人工操作进行划扣。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.3 </span><span style='font-family:宋体'>虚拟账户内的溢缴款不计发利息。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.4 </span><span style='font-family:宋体'>乙方任一笔贷款未能足额缴存致使划扣失败等情形导致乙方逾期还款的，甲方有权行使以下一项或多项权利：</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·</span> <span
+            style='font-family:宋体'>按照借期内利率上浮百分之</span><span lang=EN-US>50</span><span
+            style='font-family:宋体'>的标准计收借期外利息（即罚息），直至借款得到全部清偿，甲方宣布提前到期的，借期截止提前到期日；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·宣布全部贷款到期，要求乙方提前清偿；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·冻结乙方虚拟账户；并从乙方的虚拟账户中扣取资金，以清偿乙方欠款；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·直接置入仲裁。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.5 </span><span style='font-family:宋体'>借款期限届满，乙方还款数额足以清偿全部债务的，视为有效还款；不足清偿全部债务的，按本协议第</span><span
+            lang=EN-US>7.8</span><span style='font-family:宋体'>条约定的顺序进行清偿，甲方不再就已经清偿的本金计收利息，未清偿部分按原有约定履行。乙方有多笔借款的，所还款项优先用于清偿借款期限最先届满的该笔借款。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.6 </span><span style='font-family:宋体'>云随贷服务目前推出“随借随还”业务，即乙方在借款期限到期前可提前偿还全部或部分欠款。但提前还贷的，乙方应结清该本金项下的全部本息。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>提前还款情形下的利息按照下列方式进行计算：利息</span><span
+            lang=EN-US>=</span><span style='font-family:宋体'>还款本金</span><span lang=EN-US>*</span><span
+            style='font-family:宋体'>日利率</span><span lang=EN-US>*</span><span
+            style='font-family:宋体'>（还款日期</span><span lang=EN-US>-</span><span
+            style='font-family:宋体'>借款日期）。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.7 </span><span style='font-family:宋体'>有下列情形之一的，甲方可要求乙方提前清偿本协议项下的债务：</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方提供虚假材料或隐瞒重要经营财务事实的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·未经甲方同意擅自改变借款资金用途或用借款资金从事非法、违规交易的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方违反其作为一方当事人与他人（包括本协议甲方）签署的任何合同或协议或其单方作出的承诺或保证，对其他债务构成严重违约行为的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·本协议项下若有担保，担保人的担保能力明显不足，或为本协议担保的质押财产、抵押财产损毁或其价值明显减少，乙方不能根据甲方要求提供新的担保的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·</span> <span
+            style='font-family:宋体'>乙方明确表示或者以自己的行为表明其不能按或未按本协议或具体业务协议的约定履行义务；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方转移财产、抽逃资金、逃避债务以及有其他损害甲方权益的行为的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方拒绝接受甲方对其信贷资金使用情况和有关经营活动进行监督和检查的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方经营方式、自身体制或法律地位发生变化，包括但不限于承包、租赁、托管、资产重组、债务重组、股份制改造、联营、合并（兼并）、分立、产权有偿转让、合资（合作）、减少注册资本或申请停业整顿、申请解散（或撤销）、申请重整、和解和破产等，未取得甲方书面同意并落实本协议项下具体业务债务的清偿责任或提供甲方认可的新的担保的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方经营和财务状况恶化，无法清偿到期债务，或涉及重大经济诉讼或仲裁及其他法律纠纷，使甲方债权实现受到严重影响和威胁的，甲方要求乙方就该等行为或情况提供书面说明，乙方未能在</span><span
+            lang=EN-US>3</span><span style='font-family:宋体'>日内提供书面说明或书面说明仍不足以使得甲方认可其清偿能力的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方烟草经营许可证到期或者无效的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方发生歇业、解散、停业、被吊销、注销等情况的。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.8 </span><span style='font-family:宋体'>乙方偿还的款项，按下列顺序进行清偿：（</span><span
+            lang=EN-US>1</span><span style='font-family:宋体'>）实现债权和担保权利的费用；（</span><span
+            lang=EN-US>2</span><span style='font-family:宋体'>）违约金；（</span><span lang=EN-US>3</span><span
+            style='font-family:宋体'>）损害赔偿金；（</span><span lang=EN-US>4</span><span
+            style='font-family:宋体'>）复利；（</span><span lang=EN-US>5</span><span
+            style='font-family:宋体'>）罚息；（</span><span lang=EN-US>6</span><span
+            style='font-family:宋体'>）利息；（</span><span lang=EN-US>7</span><span
+            style='font-family:宋体'>）本金。但甲方有权根据实际情况变更还款顺序。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.9 </span><span style='font-family:宋体'>任何欠款，应当通过向关联银行卡缴存资金，由甲方委托第三方自动划扣或者有效的人工划扣的方式进行偿还。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>7.10 </span><span style='font-family:宋体'>甲方不会以任何理由、任何形式指引乙方将款项存至任何第三方账户，乙方未采用本协议约定的方式进行还款所产生的损失，由乙方自行承担。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第八条</span> <span
+            style='font-family:宋体'>欠款催收</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>8.1 </span><span style='font-family:宋体'>甲方有权通过电话、信函、手机短信、微信、电子邮件、面访或司法渠道等方式自行或委托第三方向乙方本人及担保人直接催缴欠款，向乙方提供给甲方的联系人、近亲属及工作单位等要求代为转告催缴欠款事宜。在此情况下，甲方有权将必要的乙方身份信息及欠款账户信息提供给担保人、联系人、亲友、工作单位及其他代偿意愿人。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>8.2 </span><span style='font-family:宋体'>甲方在实现债权过程中发生的所有费用均由乙方承担，包括但不限于诉讼费、仲裁费、差旅费、委托费、律师费等。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>8.3 </span><span style='font-family:宋体'>甲方有权通过新闻媒介实行公告催收，并向社会或有关方面公布具有不良行为的客户名单。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>8.4 </span><span style='font-family:宋体'>双方确认：乙方在本协议中写明的手机号码、电子邮件等联系方式，均为双方之间涉诉纠纷相关材料有效送达地址，按本协议约定由任何一方发给其他方的任何通知，应以短信或者电子邮件等形式发出，送至约定邮箱或者手机号码。</span><span
+            style='font-family:宋体'>双方特别约定在仲裁过程中衢州仲裁委员会可通过短信链接的方式进行仲裁文书电子送达，短信发送即视为送达，短信接收方可点击链接进行查看或登陆衢州仲裁委员会网络仲裁平台（<span
+            lang=EN-US>http://odr.qzzcwyh.com</span>）查看。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>8.5 </span><span style='font-family:宋体'>如一方需变更联络邮箱或者手机号码的，应当以书面通知并得到对方确认，否则发送至原约定邮箱或手机号码，发送即视为送达。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>8.6 </span><span style='font-family:宋体'>该送达地址适用范围包括双方非诉时各类通知、协议等文件以及就合同发生纠纷时相关文件和法律文书的送达，同时包括在争议进入仲裁程序。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第九条</span> <span
+            style='font-family:宋体'>授信终止</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>9.1 </span><span style='font-family:宋体'>有下列情形之一的，授信终止：</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方申请终止授信的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·甲方根据乙方的资信状况，经审慎判断，决定终止的；</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>·乙方未能及时、足额偿还欠款的。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>9.2 </span><span style='font-family:宋体'>授信终止后，乙方仍需清偿本协议项下的全部债务。</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>第十条</span> <span
+            style='font-family:宋体'>附则</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>10.1 </span><span style='font-family:宋体'>本协议订立后，甲方有权将本协议项下的权利和义务整体转移给甲方关联公司，对此乙方不持异议。本协议订立时，甲方已就本条向乙方做了合理说明，乙方同意合同主体变更时甲方无需进行特别通知。乙方因故需要知晓合同主体是否变更的，可向甲方询问，甲方应在合理期限内答复。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>10.2 </span><span style='font-family:宋体'>双方确认，双方在云联金服等相关网络平台上作出的订立协议、授权、发表声明或接受条件等单方或双方法律行为对双方具有约束力，任何一方不得以未在纸质文件上签章为由否认前述行为的效力。任何通过乙方账户及密码登录云联金服等相关网络平台并进行后续操作的行为，视为乙方本人的行为。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>10.3 </span><span style='font-family:宋体'>本协议未约定事宜，均以云联金服网站所不时公布的《云联金服用户条款》及相关附属规则为补充；本服务协议与《云联金服用户条款》及相关附属规则不一致的地方，以本协议为准。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>10.4 </span><span style='font-family:宋体'>本协议生效后，除法律规定及本协议约定的情形外，甲乙双方均不得擅自变更或提前解除本协议。凡因执行本协议或本协议有关的一切争议，均提请衢州仲裁委员会仲裁，并适用其网络仲裁规则（包括适用互联网金融仲裁特别规定条款），衢州仲裁委员会的裁决为终局裁决，对双方具有法律约束力。在仲裁期间，本协议不涉及争议部分的条款仍须履行。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>10.5 </span><span style='font-family:宋体'>本协议一式三份，甲方执两份，乙方执一份。</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>甲方（盖章）：宁波云联小额贷款有限公司</span><span
+            lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+            style='font-family:宋体'>乙方（盖章）：</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>乙方（签字）：</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+    <p class=MsoNormal><span style='font-family:宋体'>双方于<u>宁波</u>签署</span></p>
+
+    <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

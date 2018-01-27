@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <dubbo:consumer check="false"/>
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService"
+                     group="loan-service-app" id="loanSeqResetService">
+        <dubbo:method name="reset" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService"
+                     group="user-service-app" id="userSeqResetService">
+        <dubbo:method name="reset" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService"
+                     group="mgt-service-app" id="mgtSeqResetService">
+        <dubbo:method name="reset" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService"
+                     group="pay-service-app" id="paySeqResetService">
+        <dubbo:method name="reset" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService"
+                     group="dealer-service-app" id="dealerSeqResetService">
+        <dubbo:method name="reset" async="true" return="false"/>
+    </dubbo:reference>
+    <dubbo:reference interface="com.xinyunlian.jinfu.common.entity.id.seq.service.SeqResetService"
+                     group="cloudCode-service-app" id="cloudCodeSeqResetService">
+        <dubbo:method name="reset" async="true" return="false"/>
+    </dubbo:reference>
+
+</beans>

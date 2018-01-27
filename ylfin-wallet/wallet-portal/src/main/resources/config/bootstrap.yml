@@ -1,0 +1,23 @@
+---
+spring:
+  application:
+    name: 'wallet-portal'
+  cloud:
+    config:
+      name: '${spring.application.name}'
+      uri: 'http://192.168.100.134:8888'
+
+---
+spring:
+  profiles: test
+  cloud:
+    config:
+      name: '${spring.application.name}'
+      uri: 'http://192.168.100.134:8888'
+
+---
+spring:
+  profiles: production
+  cloud:
+    config:
+      uri: 'http://192.168.252.114:8888'

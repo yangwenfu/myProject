@@ -1,0 +1,51 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.springframework.org/schema/beans" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xmlns:repository="http://www.springframework.org/schema/data/repository"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+     http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+     http://www.springframework.org/schema/data/repository http://www.springframework.org/schema/data/repository/spring-repository.xsd">
+
+	<tx:annotation-driven />
+
+	<jpa:repositories base-package="com.xinyunlian.jinfu"
+		transaction-manager-ref="transactionManager"
+		entity-manager-factory-ref="entityManagerFactory">
+		<repository:include-filter type="assignable"
+			expression="org.springframework.data.repository.Repository" />
+	</jpa:repositories>
+
+	<bean
+		class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+	<bean
+		class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
+		
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+
+	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="jtaDataSource" ref="dataSource" />
+		<property name="packagesToScan" value="com.xinyunlian.jinfu" />
+		<property name="jpaDialect" >
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect" />
+		</property>
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<property name="database" value="MYSQL" />
+			</bean>
+		</property>
+		<property name="jpaPropertyMap">
+			<map>
+				<entry key="hibernate.show_sql" value="${hibernate.show_sql}"/>
+				<entry key="hibernate.format_sql" value="true"/>
+				<entry key="hibernate.use_sql_comments" value="true"/>
+				<entry key="javax.persistence.transactionType" value="RESOURCE_LOCAL" />
+			</map>
+		</property>
+	</bean>
+	
+</beans>

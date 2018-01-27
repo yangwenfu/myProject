@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:reference interface="com.xinyunlian.jinfu.ad.service.AdService" id="adService" timeout="5000"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.prod.service.ProdService" id="prodService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.crm.service.CrmCallService" id="crmCallService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.crm.service.CrmCallTypeService" id="crmCallTypeService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.cms.service.CmsArticleService" id="cmsArticleService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.cms.service.CmsArticleTypeService" id="cmsArticleTypeService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.area.service.SysAreaInfService" id="sysAreaInfService" check="false"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.user.service.MgtUserService" id="mgtUserService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.prod.service.ProdTypeInfService" id="prodTypeInfService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.app.service.AppVersionControlService" id="appVersionControlService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.app.service.DataVersionControlService" id="dataVersionControlService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.user.service.ClientSaltService" id="clientSaltService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.user.service.MgtDeptService" id="mgtDeptService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.user.service.MgtAuthorityService" id="mgtAuthorityService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.user.service.MgtSmsService" id="mgtSmsService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.channel.service.ChannelUserService" id="channelUserService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.ad.service.AdPosService" id="adPosService" timeout="5000"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.config.service.ConfigService" id="configService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.spiderproxy.service.ProxyRefreshService" id="proxyRefreshService" retries="0" timeout="20000"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.dict.service.DictService" id="dictService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.cms.service.NoticeInfService" id="noticeInfService"/>
+    <dubbo:reference interface="com.xinyunlian.jinfu.industry.service.IndustryService" id="industryService"/>
+
+</beans>

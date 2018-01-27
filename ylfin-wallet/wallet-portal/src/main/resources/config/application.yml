@@ -1,0 +1,37 @@
+app:
+  type: web
+server:
+  context-path: '/wallet-portal'
+  port: 8036
+
+sms:
+  tplKey:
+    register: 139
+    bankcard: 139
+    forget: 139
+
+spring:
+  http:
+    multipart:
+      max-request-size: 2MB
+
+security:
+  basic:
+    enabled: false
+  enable-csrf: false
+
+ylfin:
+  http-client:
+    enabled: true
+    type: 'httpclient'
+  mvc.error-attributes.type: 'custom'
+  swagger:
+    enabled: true
+    basePackage: com.ylfin.wallet.portal.controller
+  web.filter:
+    request-logging.enabled: true
+  modelMapper.enabled: true
+  sms.enabled: true
+
+management:
+  port: 9036
